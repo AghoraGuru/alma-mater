@@ -1,0 +1,2 @@
+# alma-mater
+College logs 😉
