@@ -1,0 +1,50 @@
+class Main {
+     
+    function void main() {
+
+        var int counter1;
+        var int counter2;
+        var int iter;
+        var int sum;
+        var int remainderfunc;
+        var int remainder;
+        let counter1 = 5;
+        let counter2 = 15;
+        let sum = 0;
+
+        while (counter1 < (counter2 + 1)){
+            let iter = 2;
+            let remainder = counter1;
+            while (iter < (counter1 / 2)) {
+                let remainderfunc = Main.remainder(counter1, iter);
+                if (remainder < remainderfunc) {
+                    let remainder = remainder;
+                }
+                else {
+                    let remainder = remainderfunc;
+                }
+                let iter = iter + 1;
+            }
+            if (remainder) {
+                do Output.printInt(counter1);
+                do Output.println();
+                let sum = sum + counter1;
+            }
+            let counter1 = counter1 + 1;
+        }
+        do Output.printInt(sum);
+       return;
+    }
+
+    function int remainder(int a, int b) {
+
+        var int remainder;
+        var int iter;
+        let iter = a;
+
+        while (iter > (b - 1)) {
+           let iter = iter - b;
+        }
+        return iter;
+    }
+}

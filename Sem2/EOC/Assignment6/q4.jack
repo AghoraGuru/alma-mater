@@ -1,0 +1,41 @@
+// find the smallest and largest number in an array.
+class Main {
+    function void main() {
+        var Array a ;
+        var int i;
+        var int smallest;
+        var int largest;
+        var int length;
+        let length = Keyboard.readInt("Enter the length of the array: ");
+        let a = Array.new(length);
+        while (i < length) {
+            // code
+            let a[i] = Keyboard.readInt("Enter the number: ");
+            let i = i + 1;
+        }
+        let i = 0;
+        //finding the smallest number
+        let smallest = a[0];
+        while(i < length){
+            if(a[i] < smallest){
+                let smallest = a[i];
+            }
+            let i = i + 1;
+        }
+        //finding the largest number
+        let largest = a[0];
+        let i = 0;
+        while(i <length){
+            if(a[i] > largest){
+                let largest = a[i];
+            }
+            let i = i + 1;
+        }
+        do Output.printString("Smallest number is: ");
+        do Output.printInt(smallest);
+        do Output.printString("Largest number is: ");
+        do Output.printInt(largest);
+        return;
+
+    }
+}

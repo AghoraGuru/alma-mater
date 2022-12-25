@@ -1,0 +1,481 @@
+function Ships.new 0
+push constant 0
+call Memory.alloc 1
+pop pointer 0
+push pointer 0
+push argument 0
+push argument 1
+push argument 2
+push argument 3
+call Ships.ship1Locs 5
+pop temp 0
+push pointer 0
+push argument 4
+push argument 5
+push argument 6
+push argument 7
+call Ships.ship2Locs 5
+pop temp 0
+push pointer 0
+push argument 8
+push argument 9
+push argument 10
+push argument 11
+call Ships.ship3Locs 5
+pop temp 0
+push pointer 0
+push argument 12
+push argument 13
+push argument 14
+push argument 15
+call Ships.ship4Locs 5
+pop temp 0
+push pointer 0
+return
+function Ships.newInstance 0
+push argument 0
+push argument 1
+push argument 2
+push argument 3
+push argument 4
+push argument 5
+push argument 6
+push argument 7
+push argument 8
+push argument 9
+push argument 10
+push argument 11
+push argument 12
+push argument 13
+push argument 14
+push argument 15
+call Ships.new 16
+pop static 0
+push constant 0
+return
+function Ships.ship1Locs 1
+push argument 0
+pop pointer 0
+push constant 3
+call Array.new 1
+pop static 1
+push constant 3
+call Array.new 1
+pop static 2
+push constant 0
+push static 1
+add
+push constant 6
+push constant 3
+push argument 1
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push static 1
+add
+push constant 6
+push constant 3
+push argument 3
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+push static 2
+add
+push constant 17
+push constant 7
+push argument 2
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push static 2
+add
+push constant 17
+push constant 7
+push argument 4
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push argument 3
+push argument 1
+sub
+push constant 0
+eq
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 1
+push static 1
+add
+push constant 0
+push static 1
+add
+pop pointer 1
+push that 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 2
+add
+push constant 0
+push static 2
+add
+pop pointer 1
+push that 0
+push constant 7
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+goto IF_END0
+label IF_FALSE0
+push constant 1
+push static 1
+add
+push constant 0
+push static 1
+add
+pop pointer 1
+push that 0
+push constant 3
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 2
+add
+push constant 0
+push static 2
+add
+pop pointer 1
+push that 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+label IF_END0
+push constant 0
+pop local 0
+push constant 0
+return
+function Ships.ship2Locs 1
+push argument 0
+pop pointer 0
+push constant 2
+call Array.new 1
+pop static 3
+push constant 2
+call Array.new 1
+pop static 4
+push constant 0
+push static 3
+add
+push constant 6
+push constant 3
+push argument 1
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 3
+add
+push constant 6
+push constant 3
+push argument 3
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+push static 4
+add
+push constant 17
+push constant 7
+push argument 2
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 4
+add
+push constant 17
+push constant 7
+push argument 4
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+pop local 0
+push constant 0
+return
+function Ships.ship3Locs 1
+push argument 0
+pop pointer 0
+push constant 3
+call Array.new 1
+pop static 5
+push constant 3
+call Array.new 1
+pop static 6
+push constant 0
+push static 5
+add
+push constant 6
+push constant 3
+push argument 1
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push static 5
+add
+push constant 6
+push constant 3
+push argument 3
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+push static 6
+add
+push constant 17
+push constant 7
+push argument 2
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 2
+push static 6
+add
+push constant 17
+push constant 7
+push argument 4
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push argument 3
+push argument 1
+sub
+push constant 0
+eq
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 1
+push static 5
+add
+push constant 0
+push static 5
+add
+pop pointer 1
+push that 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 6
+add
+push constant 0
+push static 6
+add
+pop pointer 1
+push that 0
+push constant 7
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+goto IF_END0
+label IF_FALSE0
+push constant 1
+push static 5
+add
+push constant 0
+push static 5
+add
+pop pointer 1
+push that 0
+push constant 3
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 6
+add
+push constant 0
+push static 6
+add
+pop pointer 1
+push that 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+label IF_END0
+push constant 0
+pop local 0
+push constant 0
+return
+function Ships.ship4Locs 1
+push argument 0
+pop pointer 0
+push constant 2
+call Array.new 1
+pop static 7
+push constant 2
+call Array.new 1
+pop static 8
+push constant 0
+push static 7
+add
+push constant 6
+push constant 3
+push argument 1
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 7
+add
+push constant 6
+push constant 3
+push argument 3
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+push static 8
+add
+push constant 17
+push constant 7
+push argument 2
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 1
+push static 8
+add
+push constant 17
+push constant 7
+push argument 4
+push constant 1
+sub
+call Math.multiply 2
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push constant 0
+pop local 0
+push constant 0
+return
+function Ships.getship1Row 0
+push static 1
+return
+function Ships.getship1Column 0
+push static 2
+return
+function Ships.getship2Row 0
+push static 3
+return
+function Ships.getship2Column 0
+push static 4
+return
+function Ships.getship3Row 0
+push static 5
+return
+function Ships.getship3Column 0
+push static 6
+return
+function Ships.getship4Row 0
+push static 7
+return
+function Ships.getship4Column 0
+push static 8
+return

@@ -1,0 +1,11 @@
+//make an array and find number of duplicate elements
+class Main {
+    function void main() {
+        do Screen.clearScreen();
+        do Attack.setScore();
+        do Attack.updateScore();
+        do getInput.getInput();
+        do Attack.askForAttack();
+        return;
+    }
+}

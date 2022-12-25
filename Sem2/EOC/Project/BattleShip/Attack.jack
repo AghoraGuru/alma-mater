@@ -1,0 +1,219 @@
+class Attack {
+     
+     static int rowInput, columnInput, score, hits;
+     static Array ship1Row, ship1Column, ship2Row, ship2Column, ship3Row, ship3Column, ship4Row, ship4Column;
+
+     function void setArrs(){
+        do Attack.getshipRows();
+        do Attack.getshipColumns();
+        return;
+     }
+
+     function void askForAttack() {
+          do Attack.setArrs();
+          do Output.printString("Player 2 must guess the locations where ships are placed        ");
+          let rowInput = Keyboard.readInt("Enter row number: ");
+          let rowInput = 6 + (3 * (rowInput - 1));
+          do Output.moveCursor(2, 0);
+          let columnInput = Keyboard.readInt("Enter column number: ");
+          let columnInput = 17 + (7 * (columnInput - 1));
+          do Attack.compare();
+          return;
+     }
+
+     function void compare() {
+          var int iter, bs, memAddress;
+          // to compare to ship 1 stuff
+          let iter = 0;
+          let bs = 22;
+          while (iter < 3) {
+               if (rowInput = ship1Row[iter]){
+                    if (columnInput = ship1Column[iter]) {
+                         do Output.moveCursor(rowInput, columnInput);
+                         do Output.printString("X1");
+                         while (bs > (-1)){
+                              do Output.moveCursor(2, bs);
+                              do Output.backSpace();
+                              let bs = bs - 1;
+                         }
+                         
+                         do Attack.updateScore();
+                         do Attack.checkForEnd();
+                         do Visual.hitH();
+                         do Visual.hitI();
+                         do Visual.hitT();
+                         do Sys.wait(10000);
+                         do Visual.clearStatus();
+                         do Output.moveCursor(0, 0);                         
+                         do Attack.askForAttack();
+                    }
+                    else {
+                         let iter = iter + 1;
+                    }
+               }
+               else {
+                    let iter = iter + 1;
+               }
+          }
+
+          let iter = 0;
+          while (iter < 2) {
+               if (rowInput = ship2Row[iter]){
+                    if (columnInput = ship2Column[iter]) {
+                         do Output.moveCursor(rowInput, columnInput);
+                         do Output.printString("X2");
+                         while (bs > (-1)){
+                              do Output.moveCursor(2, bs);
+                              do Output.backSpace();
+                              let bs = bs - 1;
+                         }
+                         
+                         do Attack.updateScore();
+                         do Attack.checkForEnd();
+                         do Visual.hitH();
+                         do Visual.hitI();
+                         do Visual.hitT();
+                         do Sys.wait(10000);
+                         do Visual.clearStatus();
+                         do Output.moveCursor(0, 0);
+                         do Attack.askForAttack();
+                    }
+                    else {
+                         let iter = iter + 1;
+                    }
+               }
+               else {
+                    let iter = iter + 1;
+               }
+          }
+
+          let iter = 0;
+          while (iter < 3) {
+               if (rowInput = ship3Row[iter]){
+                    if (columnInput = ship3Column[iter]) {
+                         do Output.moveCursor(rowInput, columnInput);
+                         do Output.printString("X3");
+                         while (bs > (-1)){
+                              do Output.moveCursor(2, bs);
+                              do Output.backSpace();
+                              let bs = bs - 1;
+                         }
+                         
+                         do Attack.updateScore();
+                         do Attack.checkForEnd();
+                         do Visual.hitH();
+                         do Visual.hitI();
+                         do Visual.hitT();
+                         do Sys.wait(10000);
+                         do Visual.clearStatus();
+                         do Output.moveCursor(0, 0);
+                         do Attack.askForAttack();
+                    }
+                    else {
+                         let iter = iter + 1;
+                    }
+               }
+               else {
+                    let iter = iter + 1;
+               }
+          }
+
+          let iter = 0;
+          while (iter < 2) {
+               if (rowInput = ship4Row[iter]){
+                    if (columnInput = ship4Column[iter]) {
+                         do Output.moveCursor(rowInput, columnInput);
+                         do Output.printString("X4");
+                         while (bs > (-1)){
+                              do Output.moveCursor(2, bs);
+                              do Output.backSpace();
+                              let bs = bs - 1;
+                         }
+                         
+                         do Attack.updateScore();
+                         do Attack.checkForEnd();
+                         do Visual.hitH();
+                         do Visual.hitI();
+                         do Visual.hitT();
+                         do Sys.wait(10000);
+                         do Visual.clearStatus();
+                         do Output.moveCursor(0, 0);
+                         do Attack.askForAttack();
+                    }
+                    else {
+                         let iter = iter + 1;
+                    }
+               }
+               else {
+                    let iter = iter + 1;
+               }
+          }
+          
+          while (bs > (-1)){
+               do Output.moveCursor(2, bs);
+               do Output.backSpace();
+               let bs = bs - 1;
+          }
+          
+          do Attack.updateScore();
+          do Visual.hitM();
+          do Visual.HitI();
+          do Visual.HitS1();
+          do Visual.HitS2();
+          do Sys.wait(10000);
+          do Visual.clearStatus();
+          do Output.moveCursor(0, 0);
+          do Attack.askForAttack();
+          return;
+     }          
+
+    function void getshipRows() {
+          let ship1Row = Ships.getship1Row();
+          let ship2Row = Ships.getship2Row();
+          let ship3Row = Ships.getship3Row();
+          let ship4Row = Ships.getship4Row();
+          return;
+    }
+
+    function void getshipColumns(){
+          let ship1Column = Ships.getship1Column();
+          let ship2Column = Ships.getship2Column();
+          let ship3Column = Ships.getship3Column();
+          let ship4Column = Ships.getship4Column();
+          return;
+    }
+
+    function void setScore() {
+          let score = -1;
+          let hits = 0;
+          return;
+    }
+
+    function void updateScore() {
+          let score = score + 1;
+          do Output.moveCursor(22, 55);
+          do Output.printString("Score: ");
+          do Output.moveCursor(22, 63);
+          do Output.backSpace();
+          do Output.printInt(score);
+          return;
+    }
+
+    function void checkForEnd() {
+          let hits = hits + 1;
+          if (hits = 10) {
+               do Screen.clearScreen();
+               do Visual.writeYouWin();
+               do Output.moveCursor(22, 55);
+               do Output.printString("Score: ");
+               do Output.moveCursor(22, 63);
+               do Output.backSpace();
+               do Output.printInt(score);
+               while (~(Keyboard.keyPressed() = 32)) {
+                    do Sys.wait(1);
+               }
+               do Main.main();
+          }
+          return;
+    }
+}

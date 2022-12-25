@@ -1,0 +1,20 @@
+//reversing string in jack
+class Main {
+    function void main () {
+        // code
+        var String s;
+        var int i ;
+        var char str;
+        let s = "redivider";
+        do Output.printString(s);
+        do Output.println();
+        let i =s.length();
+        while (i>0) {
+            // code
+            let i = i-1;
+            let str = s.charAt(i);
+            do Output.printChar(str);
+        }
+        return;
+    }
+}

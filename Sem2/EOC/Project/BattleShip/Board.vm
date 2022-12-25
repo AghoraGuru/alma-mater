@@ -1,0 +1,257 @@
+function Board.new 0
+push constant 0
+call Memory.alloc 1
+pop pointer 0
+push pointer 0
+call Board.drawBoard 1
+pop temp 0
+push pointer 0
+call Board.placeCovers 1
+pop temp 0
+push pointer 0
+call Board.placeLocs 1
+pop temp 0
+push pointer 0
+return
+function Board.newInstance 0
+call Board.new 0
+pop static 0
+push constant 0
+return
+function Board.placeCovers 5
+push argument 0
+pop pointer 0
+push constant 6
+pop local 0
+push constant 0
+pop local 2
+push constant 25
+call Array.new 1
+pop local 3
+push constant 25
+call Array.new 1
+pop local 4
+label WHILE_EXP0
+push local 0
+push constant 19
+lt
+not
+if-goto WHILE_END0
+push constant 17
+pop local 1
+label WHILE_EXP1
+push local 1
+push constant 46
+lt
+not
+if-goto WHILE_END1
+push local 0
+push local 1
+call Output.moveCursor 2
+pop temp 0
+push constant 1
+call String.new 1
+push constant 63
+call String.appendChar 2
+call Output.printString 1
+pop temp 0
+push local 2
+push local 3
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push local 2
+push local 4
+add
+push local 1
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push local 2
+push constant 1
+add
+pop local 2
+push local 1
+push constant 7
+add
+pop local 1
+goto WHILE_EXP1
+label WHILE_END1
+push local 0
+push constant 3
+add
+pop local 0
+goto WHILE_EXP0
+label WHILE_END0
+push constant 0
+return
+function Board.drawBoard 2
+push argument 0
+pop pointer 0
+push constant 112
+pop local 0
+label WHILE_EXP0
+push local 0
+push constant 374
+lt
+not
+if-goto WHILE_END0
+push constant 55
+pop local 1
+label WHILE_EXP1
+push local 1
+push constant 200
+lt
+not
+if-goto WHILE_END1
+push local 0
+push local 1
+push local 0
+push constant 56
+add
+push local 1
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push local 0
+push local 1
+push constant 33
+add
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push constant 56
+add
+push local 1
+push local 0
+push constant 56
+add
+push local 1
+push constant 33
+add
+call Screen.drawLine 4
+pop temp 0
+push local 0
+push local 1
+push constant 33
+add
+push local 0
+push constant 56
+add
+push local 1
+push constant 33
+add
+call Screen.drawLine 4
+pop temp 0
+push local 1
+push constant 33
+add
+pop local 1
+goto WHILE_EXP1
+label WHILE_END1
+push local 0
+push constant 56
+add
+pop local 0
+goto WHILE_EXP0
+label WHILE_END0
+push constant 0
+return
+function Board.placeLocs 6
+push argument 0
+pop pointer 0
+push constant 5
+call Array.new 1
+pop local 4
+push constant 5
+call Array.new 1
+pop local 5
+push constant 6
+pop local 0
+push constant 10
+pop local 1
+push constant 1
+pop local 3
+label WHILE_EXP0
+push local 3
+push constant 6
+lt
+not
+if-goto WHILE_END0
+push local 0
+push local 1
+call Output.moveCursor 2
+pop temp 0
+push local 3
+call Output.printInt 1
+pop temp 0
+push local 2
+push local 4
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push local 2
+push constant 1
+add
+pop local 2
+push local 0
+push constant 3
+add
+pop local 0
+push local 3
+push constant 1
+add
+pop local 3
+goto WHILE_EXP0
+label WHILE_END0
+push constant 3
+pop local 0
+push constant 17
+pop local 1
+push constant 1
+pop local 3
+label WHILE_EXP1
+push local 3
+push constant 6
+lt
+not
+if-goto WHILE_END1
+push local 0
+push local 1
+call Output.moveCursor 2
+pop temp 0
+push local 3
+call Output.printInt 1
+pop temp 0
+push local 2
+push local 4
+add
+push local 0
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push local 2
+push constant 1
+add
+pop local 2
+push local 1
+push constant 7
+add
+pop local 1
+push local 3
+push constant 1
+add
+pop local 3
+goto WHILE_EXP1
+label WHILE_END1
+push constant 0
+return

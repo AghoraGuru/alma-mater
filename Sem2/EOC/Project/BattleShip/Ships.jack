@@ -1,0 +1,133 @@
+class Ships {
+
+    static Ships instance;
+    static Array ship1Row, ship1Column, ship2Row, ship2Column, ship3Row, ship3Column, ship4Row, ship4Column;
+    constructor Ships new(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2, int cx1, int cy1, int cx2, int cy2, int dx1, int dy1, int dx2, int dy2) {
+        do ship1Locs(ax1, ay1, ax2, ay2);
+        do ship2Locs(bx1, by1, bx2, by2);
+        do ship3Locs(cx1, cy1, cx2, cy2);
+        do ship4Locs(dx1, dy1, dx2, dy2);
+        return this;
+    }
+
+    function void newInstance(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2, int cx1, int cy1, int cx2, int cy2, int dx1, int dy1, int dx2, int dy2) {
+        let instance = Ships.new(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2, cx1, cy1, cx2, cy2, dx1, dy1, dx2, dy2);
+        return;
+    }
+
+    method void ship1Locs(int x1, int y1, int x3, int y3) {
+        var int arrIter;
+        let ship1Row = Array.new(3);
+        let ship1Column = Array.new(3);
+        let ship1Row[0] = 6 + (3 * (x1 - 1));
+        let ship1Row[2] = 6 + (3 * (x3 - 1));
+        let ship1Column[0] = 17 + (7 * (y1 - 1));
+        let ship1Column[2] = 17 + (7 * (y3 - 1));
+        if ((x3 - x1) = 0) {
+            let ship1Row[1] = ship1Row[0];
+            let ship1Column[1] = ship1Column[0] + 7;
+        }
+        else{
+            let ship1Row[1] = ship1Row[0] + 3;
+            let ship1Column[1] = ship1Column[0];
+        }
+        let arrIter = 0;
+/*        while (arrIter < 3) {
+            do Output.moveCursor(ship1Row[arrIter], ship1Column[arrIter]);
+            do Output.printString("X1");
+            let arrIter = arrIter + 1;
+        }*/
+        return;
+    }
+
+    method void ship2Locs(int x1, int y1, int x2, int y2) {
+        var int arrIter;
+        let ship2Row = Array.new(2);
+        let ship2Column = Array.new(2);
+        let ship2Row[0] = 6 + (3 * (x1 - 1));
+        let ship2Row[1] = 6 + (3 * (x2 - 1));
+        let ship2Column[0] = 17 + (7 * (y1 - 1));
+        let ship2Column[1] = 17 + (7 * (y2 - 1));
+        let arrIter = 0;
+/*        while (arrIter < 2) {
+            do Output.moveCursor(ship2Row[arrIter], ship2Column[arrIter]);
+            do Output.printString("X2");
+            let arrIter = arrIter + 1;
+        }*/
+        return;
+    }
+
+    method void ship3Locs(int x1, int y1, int x3, int y3) {
+        var int arrIter;
+        let ship3Row = Array.new(3);
+        let ship3Column = Array.new(3);
+        let ship3Row[0] = 6 + (3 * (x1 - 1));
+        let ship3Row[2] = 6 + (3 * (x3 - 1));
+        let ship3Column[0] = 17 + (7 * (y1 - 1));
+        let ship3Column[2] = 17 + (7 * (y3 - 1));
+        if ((x3 - x1) = 0) {
+            let ship3Row[1] = ship3Row[0];
+            let ship3Column[1] = ship3Column[0] + 7;
+        }
+        else{
+            let ship3Row[1] = ship3Row[0] + 3;
+            let ship3Column[1] = ship3Column[0];
+        }
+        let arrIter = 0;
+/*        while (arrIter < 3) {
+            do Output.moveCursor(ship3Row[arrIter], ship3Column[arrIter]);
+            do Output.printString("X3");
+            let arrIter = arrIter + 1;
+        }*/
+        return;
+    }
+
+    method void ship4Locs(int x1, int y1, int x2, int y2) {
+        var int arrIter;
+        let ship4Row = Array.new(2);
+        let ship4Column = Array.new(2);
+        let ship4Row[0] = 6 + (3 * (x1 - 1));
+        let ship4Row[1] = 6 + (3 * (x2 - 1));
+        let ship4Column[0] = 17 + (7 * (y1 - 1));
+        let ship4Column[1] = 17 + (7 * (y2 - 1));
+        let arrIter = 0;
+/*        while (arrIter < 2) {
+            do Output.moveCursor(ship4Row[arrIter], ship4Column[arrIter]);
+            do Output.printString("X4");
+            let arrIter = arrIter + 1;
+        }*/
+        return;
+    }
+
+    function Array getship1Row(){
+        return ship1Row;
+    }
+
+    function Array getship1Column(){
+        return ship1Column;
+    }
+
+    function Array getship2Row(){
+        return ship2Row;
+    }
+
+    function Array getship2Column(){
+        return ship2Column;
+    }
+
+    function Array getship3Row(){
+        return ship3Row;
+    }
+
+    function Array getship3Column(){
+        return ship3Column;
+    }
+
+    function Array getship4Row(){
+        return ship4Row;
+    }
+
+    function Array getship4Column(){
+        return ship4Column;
+    }
+}

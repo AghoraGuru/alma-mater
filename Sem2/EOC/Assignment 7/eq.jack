@@ -1,0 +1,32 @@
+class Main {
+    function void main() {
+        
+        //if n<11 , y = sum of all n
+        //else y = sum of n*n
+        //print y
+        var int n;
+        var int y;
+        var int n;
+        var int a;
+        var int sum;
+        let n = Keyboard.readInt("Enter some num: ");
+        if (n<11) {
+            let a =0;
+            let sum = 0;
+            while (a<(n+1)) {
+                let sum = sum + a;
+                let a = a + 1;
+            }
+        }
+        else {
+            let a =0;
+            let sum = 0;
+            while (a<(n+1)) {
+                let sum = sum + a*a;
+                let a = a + 1;
+            }
+        }
+        do Output.printInt(sum);
+        return;
+    }
+}

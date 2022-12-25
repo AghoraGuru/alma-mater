@@ -1,0 +1,88 @@
+class Board {
+
+    static Board instance;
+
+    constructor Board new() {
+        do drawBoard();
+        do placeCovers();
+        do placeLocs();
+        return this;
+    }
+
+    function void newInstance() {
+        let instance = Board.new();
+        return;
+    }
+    
+    method void placeCovers() {
+        var int rowIter;
+        var int columnIter;
+        var int arrIter;
+        var Array rowVal;
+        var Array columnVal;
+        let rowIter = 6;
+        let arrIter = 0;
+        let rowVal = Array.new(25);
+        let columnVal = Array.new(25);
+        while (rowIter < 19) {
+            let columnIter = 17;
+            while(columnIter < 46) {
+                do Output.moveCursor(rowIter, columnIter);
+                do Output.printString("?");
+                let rowVal[arrIter] = rowIter;
+                let columnVal[arrIter] = columnIter;
+                let arrIter = arrIter + 1;
+                let columnIter = columnIter + 7;
+            }
+            let rowIter = rowIter + 3;
+        }
+        return;
+    }
+
+    method void drawBoard() {
+        var int iter1, iter2;
+        let iter1 = 112;
+        while(iter1 < 374){
+            let iter2 = 55;
+            while(iter2 < 200) {
+                do Screen.drawLine(iter1, iter2, iter1 + 56, iter2);
+                do Screen.drawLine(iter1, iter2, iter1, iter2 + 33);
+                do Screen.drawLine(iter1 + 56, iter2, iter1 + 56, iter2 + 33);
+                do Screen.drawLine(iter1, iter2 + 33, iter1 + 56, iter2 + 33);
+                let iter2 = iter2 + 33;
+            }
+            let iter1 = iter1 + 56;
+        }
+        return;
+    }
+
+    method void placeLocs() {
+        var int rowIter, columnIter, arrIter, loc;
+        var Array rowVal, columnVal;
+        let rowVal = Array.new(5);
+        let columnVal =Array.new(5);
+        let rowIter = 6;
+        let columnIter = 10;
+        let loc = 1;
+        while (loc < 6) {
+            do Output.moveCursor(rowIter, columnIter);
+            do Output.printInt(loc);
+            let rowVal[arrIter] = rowIter;
+            let arrIter = arrIter + 1;
+            let rowIter = rowIter + 3;
+            let loc = loc + 1;
+        }
+        let rowIter = 3;
+        let columnIter = 17;
+        let loc = 1;
+        while (loc < 6) {
+            do Output.moveCursor(rowIter, columnIter);
+            do Output.printInt(loc);
+            let rowVal[arrIter] = rowIter;
+            let arrIter = arrIter + 1;
+            let columnIter = columnIter + 7;
+            let loc = loc + 1;
+        }
+        return;
+    }
+}

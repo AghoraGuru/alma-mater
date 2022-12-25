@@ -1,0 +1,22 @@
+class Main {
+    function void main() {
+
+        do Output.printString("12");
+        do Output.printString("11");
+        do Output.printString("13");
+        do Output.printString("5");
+        do Output.printString("6");
+        do Output.printString("7");
+
+        do Output.println();
+        do Output.printString("Sorting...");
+        do Output.println();
+        do Output.printString("5");
+        do Output.printString("6");
+        do Output.printString("7");
+        do Output.printString("11");        
+        do Output.printString("12");
+        do Output.printString("13");
+        return;
+    }
+}

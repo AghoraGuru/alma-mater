@@ -1,0 +1,57 @@
+//binary search using jack
+class Main {
+    function void main() {
+        var Array a;
+        var int x;
+        var int n;
+        var int result;
+        var int i;
+        var int num;
+        var int length;
+        let length = Keyboard.readInt("Enter the length of the array: ");
+        let a = Array.new(length);
+        let i =0;
+        while (i<length) {
+            // code
+            let a[i] = Keyboard.readInt("Enter the value of the array: ");
+            let i = i + 1;
+        }
+        do Output.println();
+        let n = Keyboard.readInt("Enter the number to be searched: ");
+        let result = Main.search(a, -1, n);
+        if (result = -1) {
+            do Output.printString("Element not found");
+        }
+        else {
+            do Output.printString("Element found at index: ");
+            do Output.printInt(result);
+        }
+        return;
+    }
+    function int search(Array a,int num,int tgt){
+        var int mid;
+        var int result;
+        if (num>tgt) {
+            // code
+            return -1;
+        }
+        else {
+            // code
+            let mid = (num+tgt)/2;
+            if (a[mid]=tgt) {
+                // code
+                return mid;
+            }
+            if (a[mid]>tgt) {
+                // code
+                return Main.search(a, mid-1, tgt);
+            }
+            else {
+                // code
+                return Main.search(a, mid+1, tgt);
+            }
+        }
+        do Output.println();
+        do Output.printString("Batch_B_Team_17");
+    }
+}

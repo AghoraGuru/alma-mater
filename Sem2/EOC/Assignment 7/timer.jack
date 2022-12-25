@@ -1,0 +1,20 @@
+//Jack program which counts up to 30 sec and automatically resets to 0 after 30 sec
+class Main {
+    function void main() {
+        var int i;
+        let i = 0;
+        while (i <31){
+            let i = i + 1;
+            do Output.printInt(i);
+            do Output.printString("\n");
+            //after 30 sec, i = 0
+            Sys.wait(1000);
+        }
+        let i = 0;
+        //after 30 seconds as text
+        do Output.printString("After 30 seconds \n");
+        do Output.printInt(i);
+
+        return;
+    }
+}
