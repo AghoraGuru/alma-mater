@@ -1,0 +1,45 @@
+CHIP CPU {
+
+	IN inM[16], instruction[16], reset;
+	OUT outM[16], writeM, addressM[15], PC[15];
+
+	PARTS:
+
+		Mux16(a = false, b = instruction, sel = instruction[15],
+		out[0] = cJGT,
+		out[1] = cJEQ,
+		out[2] = cJLT,
+		out[3] = DestM, out[3] = writeM,
+		out[4] = DestD,
+		out[5] = DestA,
+		out[6] = ALUno,
+		out[7] = ALUf,
+		out[8] = ALUny,
+		out[9] = ALUzy,
+		out[10] = ALUnx,
+		out[11] = ALUzx,
+		out[12] = AorM,
+		out[15] = Type);
+
+		ALU(x = x, y = y, zx = ALUzx, zy = ALUzy, nx = ALUnx, ny = ALUny, f = ALUf, no = ALUno, out = outM, out = ALUout, zr = zr, ng = ng);
+
+		Or(a = zr, b = ng, out = notpos);
+		Not(in = notpos, out = pos);
+
+		/*A register logic*/
+		Mux16(a = instruction, b = ALUout, sel = Type, out = A);
+		Not(in = Type, out = notType);
+		Or(a = notType, b = DestA, out = loadA);
+		ARegister(in = A, load = loadA, out = AReg, out[0..14] = addressM);
+		Mux16(a = AReg, b = inM, sel = AorM, out = y);
+
+		DRegister(in = ALUout, load = DestD, out = x);
+
+		/*Jump Logic*/
+		And(a = cJEQ, b = zr, out = JEQ);
+		And(a = cJLT, b = ng, out = JLT);
+		And(a = cJGT, b = pos, out = JGT);
+		Or(a = JEQ, b = JLT, out = JLE);
+		Or(a = JLE, b = JGT, out = jump);
+		PC(in = AReg, load = jump, inc = true, reset = reset, out[0..14] = PC, out[15] = false);
+}

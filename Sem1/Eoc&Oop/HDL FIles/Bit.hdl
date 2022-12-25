@@ -1,0 +1,9 @@
+CHIP Bit {
+	
+	IN in, load;			/* If load == 1, out[t + 1] = out[t] */
+	OUT out;			/* Else out does not change, it will be out[t + 1] = out[t] */
+
+	PARTS:
+		Mux(a = DFFout, b = in, sel = load, out = muxOut);
+		DFF(in = muxOut, out = DFFout, out = out);
+}

@@ -1,0 +1,18 @@
+CHIP CarrySelectAdder {
+
+        IN a[16], b[16], c;
+        OUT sum[16], carry;
+
+        PARTS:
+
+		FAusingHA(a = a[0], b = b[0], c = c, sum = sum[0], carry = carry0);
+		FAusingHA(a = a[1], b = b[1], c = carry0, sum = sum[1], carry = carry1);
+		FAusingHA(a = a[2], b = b[2], c = carry1, sum = sum[2], carry = carry2);
+		FAusingHA(a = a[3], b = b[3], c = carry2, sum = sum[3], carry = carry3);
+
+
+        CarrySelectAdder4Bit(a = a[4..7], b = b[4..7], c = carry3, sum = sum[4..7], carry = carry4);
+		CarrySelectAdder4Bit(a = a[8..11], b = b[8..11], c = carry4, sum = sum[8..11], carry = carry5);
+		CarrySelectAdder4Bit(a = a[12..15], b = b[12..15], c = carry5, sum = sum[12..15], carry = carry);
+}
+

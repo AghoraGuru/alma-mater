@@ -1,0 +1,5 @@
+Dont change any code in SupportFiles.java because it contaoins all main functions used in Emulator such as getting usr input to converting decimal input to binary.
+You need CPU.java for emulator to work cuz ofcourse u need a CPU file .
+
+AutoHardware Simulator is not yet finished as on 13/02/2022 it may not be developed further as the purpose of this repo is over .
+Use ManualHardSimu is funcitonal you just need to uncomment which chip you need to test !

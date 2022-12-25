@@ -1,0 +1,13 @@
+CHIP XNor {
+
+        IN a, b;
+        OUT out;
+
+        PARTS:
+
+                Nand(a =a, b = b, out = ab);
+                Nand(a = a, b = ab, out = aab);
+                Nand(a = b, b = ab, out = bab);
+                Nand(a = aab, b = bab, out = aabbab);
+		Nand(a = aabbab, b = aabbab, out = out);
+}

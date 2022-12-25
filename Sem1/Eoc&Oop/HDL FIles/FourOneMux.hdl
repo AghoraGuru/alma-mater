@@ -1,0 +1,10 @@
+CHIP FourOneMux {
+
+	IN a, b, c, d, sel0, sel1;
+	OUT out;
+
+	PARTS:
+		TwoOneMux(a = a, b = b, sel = sel0, out = out1);
+		TwoOneMux(a = c, b = d, sel = sel0, out = out2);
+		TwoOneMux(a = out1, b = out2, sel = sel1, out = out);
+}

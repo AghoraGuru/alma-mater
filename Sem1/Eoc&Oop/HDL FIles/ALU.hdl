@@ -1,0 +1,44 @@
+CHIP ALU {
+	
+	IN x[16], y[16], zx, zy, nx, ny, f, no;
+	OUT out[16], zr, ng;
+
+	PARTS:
+		Not16(in = x, out = notx);
+		Not16(in = y, out = noty);
+		
+
+		/* Pre setting x input */
+		Mux16(a = x, b = false, sel = zx, out = x1);
+		Not16(in = x1, out = notx1);
+		Mux16(a = x1, b = notx1, sel = nx, out = x2);
+
+
+		/* Pre setting y input*/
+		Mux16(a = y, b = false, sel = zy, out = y1);
+		Not16(in = y1, out = noty1);
+		Mux16(a = y1, b = noty1, sel = ny, out = y2);
+
+
+		/* And and Add operations on the new values in case they changed*/
+		And16(a = x2, b = y2, out = andout);
+		Add16(a = x2, b = y2, out = addout);
+
+
+		/* Selecting between And or Or operations */
+		Mux16(a = andout, b = addout, sel = f, out = out1);
+
+
+		/* Setting if out will be Not out or out */
+		Not16(in = out1, out = notout1);
+		Mux16(a = out1, b = notout1, sel = no, out = out, out = zrng);
+
+
+		/*If output is 0, zr will be 1*/
+		Or16Way(in = zrng, out = zrsel);
+		Mux(a = true, b = false, sel = zrsel, out = zr);
+
+
+		/*If output is less than 0, ng will b 1*/
+		And16(a = true, b = zrng, out[15] = ng, out[0..14] = empty);
+}
