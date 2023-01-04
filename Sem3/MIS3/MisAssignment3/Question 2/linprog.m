@@ -1,5 +1,4 @@
 function [z, history] = linprog(c, A, b, rho, alpha)
-
 t_start = tic;
 
 QUIET    = 0;
