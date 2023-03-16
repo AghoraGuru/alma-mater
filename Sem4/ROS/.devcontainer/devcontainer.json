@@ -1,0 +1,13 @@
+{
+  "name": "osrf/ros:humble-desktop-full",
+  "dockerFile": "Dockerfile",
+  "runArgs": [
+    "--privileged",
+    "--network=host"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/src/${localWorkspaceFolderBasename},type=bind",
+"workspaceFolder": "/workspace",
+"features": {
+	"ghcr.io/akhildevelops/devcontainer-features/apt:0": {}
+}
+}
