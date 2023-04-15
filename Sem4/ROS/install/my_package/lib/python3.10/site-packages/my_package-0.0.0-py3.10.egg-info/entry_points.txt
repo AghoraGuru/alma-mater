@@ -1,0 +1,6 @@
+[console_scripts]
+client = add_two_ints_client.py:main
+num_count = number_count.py:main
+num_gen = number_gen.py:main
+server = add_two_ints_server.py:main
+

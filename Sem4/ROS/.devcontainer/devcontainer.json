@@ -1,0 +1,11 @@
+{
+  "name": "osrf/ros:humble-desktop-full",
+  "dockerFile": "Dockerfile",
+  "runArgs": [
+    "--privileged",
+    "--network=host"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/,type=bind",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "echo '. /workspace/install/setup.bash' >> ~/.bashrc"
+}
