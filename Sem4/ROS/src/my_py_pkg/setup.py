@@ -23,7 +23,8 @@ setup(
             'server = my_py_pkg.add_two_ints_server:main',
             'client = my_py_pkg.add_two_ints_client:main',
             'num_gen = my_py_pkg.number_gen:main',
-            'num_count = my_py_pkg.number_counter:main'
+            'num_count = my_py_pkg.number_counter:main',
+            'num_reset = my_py_pkg.num_counter_reset:main'
         ],
     },
 )

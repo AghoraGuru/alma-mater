@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_py_pkg/number_gen.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/num_counter_reset.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+copying my_py_pkg/number_counter.py -> /workspace/build/my_py_pkg/build/lib/my_py_pkg
+running install
+running install_lib
+copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/number_gen.py -> /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/num_counter_reset.py -> /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+copying /workspace/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+byte-compiling /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_gen.py to number_gen.cpython-310.pyc
+byte-compiling /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/num_counter_reset.py to num_counter_reset.cpython-310.pyc
+byte-compiling /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /workspace/install/my_py_pkg/lib/my_py_pkg
+Installing num_count script to /workspace/install/my_py_pkg/lib/my_py_pkg
+Installing num_gen script to /workspace/install/my_py_pkg/lib/my_py_pkg
+Installing server script to /workspace/install/my_py_pkg/lib/my_py_pkg
+writing list of installed files to '/workspace/build/my_py_pkg/install.log'

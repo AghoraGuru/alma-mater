@@ -1,0 +1,2 @@
+Invoking command in '/workspace/build/ros_interfaces': CMAKE_PREFIX_PATH=/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake /workspace/src/ros_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/install/ros_interfaces
+Invoked command in '/workspace/build/ros_interfaces' returned '1': CMAKE_PREFIX_PATH=/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake /workspace/src/ros_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/install/ros_interfaces
