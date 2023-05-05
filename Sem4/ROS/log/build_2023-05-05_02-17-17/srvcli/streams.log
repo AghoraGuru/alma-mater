@@ -1,0 +1,24 @@
+[0.813s] Invoking command in '/workspace/src/srvcli': AMENT_PREFIX_PATH=/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble PYTHONPATH=/workspace/build/srvcli/prefix_override:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /workspace/build/srvcli/build install --record /workspace/build/srvcli/install.log --single-version-externally-managed
+[1.024s] running egg_info
+[1.025s] writing ../../build/srvcli/srvcli.egg-info/PKG-INFO
+[1.025s] writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt
+[1.026s] writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt
+[1.026s] writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt
+[1.026s] writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt
+[1.027s] reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[1.028s] writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'
+[1.028s] running build
+[1.028s] running build_py
+[1.029s] running install
+[1.029s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.029s]   warnings.warn(
+[1.029s] running install_lib
+[1.031s] running install_data
+[1.031s] running install_egg_info
+[1.033s] removing '/workspace/install/srvcli/lib/python3.10/site-packages/srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.033s] Copying ../../build/srvcli/srvcli.egg-info to /workspace/install/srvcli/lib/python3.10/site-packages/srvcli-0.0.0-py3.10.egg-info
+[1.034s] running install_scripts
+[1.055s] Installing client script to /workspace/install/srvcli/lib/srvcli
+[1.055s] Installing service script to /workspace/install/srvcli/lib/srvcli
+[1.055s] writing list of installed files to '/workspace/build/srvcli/install.log'
+[1.083s] Invoked command in '/workspace/src/srvcli' returned '0': AMENT_PREFIX_PATH=/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble PYTHONPATH=/workspace/build/srvcli/prefix_override:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srvcli build --build-base /workspace/build/srvcli/build install --record /workspace/build/srvcli/install.log --single-version-externally-managed

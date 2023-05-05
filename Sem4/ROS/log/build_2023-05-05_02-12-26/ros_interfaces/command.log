@@ -1,0 +1,1 @@
+Invoking command in '/workspace/build/ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/pubsub:/workspace/install/srvcli:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /workspace/build/ros_interfaces -- -j12 -l12

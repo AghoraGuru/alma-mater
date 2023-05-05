@@ -1,0 +1,774 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000231] (ros_interfaces) JobQueued: {'identifier': 'ros_interfaces', 'dependencies': OrderedDict()}
+[0.000653] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000700] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/workspace/install/tutorial_interfaces')])}
+[0.000729] (srvcli) JobQueued: {'identifier': 'srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/workspace/install/tutorial_interfaces')])}
+[0.000749] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.014028] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.023063] (ros_interfaces) JobStarted: {'identifier': 'ros_interfaces'}
+[0.033271] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.034138] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.035265] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/workspace/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'kalyan-linux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-83311f09-1533-4394-b4d9-8bcc3d41c67f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29012cff2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspace/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/pubsub:/workspace/install/srvcli:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.098614] (-) TimerEvent: {}
+[0.198959] (-) TimerEvent: {}
+[0.299212] (-) TimerEvent: {}
+[0.322789] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.323877] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.324284] (ros_interfaces) JobProgress: {'identifier': 'ros_interfaces', 'progress': 'cmake'}
+[0.325048] (ros_interfaces) JobProgress: {'identifier': 'ros_interfaces', 'progress': 'build'}
+[0.326005] (ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/ros_interfaces', '--', '-j12', '-l12'], 'cwd': '/workspace/build/ros_interfaces', 'env': OrderedDict([('HOSTNAME', 'kalyan-linux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-83311f09-1533-4394-b4d9-8bcc3d41c67f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29012cff2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspace/build/ros_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/pubsub:/workspace/install/srvcli:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.329121] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.360113] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.362926] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.370667] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.384187] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.385164] (ros_interfaces) StdoutLine: {'line': b'[  2%] Built target ros_interfaces__cpp\n'}
+[0.386036] (ros_interfaces) StdoutLine: {'line': b'[ 12%] Built target ros_interfaces__rosidl_generator_c\n'}
+[0.395776] (ros_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_ros_interfaces\n'}
+[0.399315] (-) TimerEvent: {}
+[0.413615] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.422418] (ros_interfaces) StdoutLine: {'line': b'[ 23%] Built target ros_interfaces__rosidl_typesupport_cpp\n'}
+[0.423630] (ros_interfaces) StdoutLine: {'line': b'[ 40%] Built target ros_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.424008] (ros_interfaces) StdoutLine: {'line': b'[ 44%] Built target ros_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.433969] (ros_interfaces) StdoutLine: {'line': b'[ 76%] Built target ros_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.434248] (ros_interfaces) StdoutLine: {'line': b'[ 76%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.434447] (ros_interfaces) StdoutLine: {'line': b'[ 76%] Built target ros_interfaces__rosidl_typesupport_c\n'}
+[0.457266] (ros_interfaces) StdoutLine: {'line': b'[ 76%] Built target ros_interfaces\n'}
+[0.480032] (ros_interfaces) StdoutLine: {'line': b'[ 78%] Built target ros_interfaces__py\n'}
+[0.499429] (-) TimerEvent: {}
+[0.506838] (ros_interfaces) StdoutLine: {'line': b'[ 87%] Built target ros_interfaces__rosidl_generator_py\n'}
+[0.547447] (ros_interfaces) StdoutLine: {'line': b'[ 91%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.549629] (ros_interfaces) StdoutLine: {'line': b'[ 95%] Built target ros_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.549930] (ros_interfaces) StdoutLine: {'line': b'[100%] Built target ros_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.599580] (-) TimerEvent: {}
+[0.657024] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.693425] (ros_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.694151] (ros_interfaces) StdoutLine: {'line': b'writing ros_interfaces.egg-info/PKG-INFO\n'}
+[0.694351] (ros_interfaces) StdoutLine: {'line': b'writing dependency_links to ros_interfaces.egg-info/dependency_links.txt\n'}
+[0.694572] (ros_interfaces) StdoutLine: {'line': b'writing top-level names to ros_interfaces.egg-info/top_level.txt\n'}
+[0.697667] (ros_interfaces) StdoutLine: {'line': b"reading manifest file 'ros_interfaces.egg-info/SOURCES.txt'\n"}
+[0.698339] (ros_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_interfaces.egg-info/SOURCES.txt'\n"}
+[0.699689] (-) TimerEvent: {}
+[0.733825] (ros_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ros_interfaces_egg\n'}
+[0.752024] (ros_interfaces) CommandEnded: {'returncode': 0}
+[0.773787] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/workspace/build/my_py_pkg/build', 'install', '--record', '/workspace/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/my_py_pkg', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/Desktop', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-83311f09-1533-4394-b4d9-8bcc3d41c67f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/my_py_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/my_py_pkg/prefix_override:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces'}, 'shell': False}
+[0.799787] (-) TimerEvent: {}
+[0.865782] (ros_interfaces) JobProgress: {'identifier': 'ros_interfaces', 'progress': 'install'}
+[0.874628] (ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/ros_interfaces'], 'cwd': '/workspace/build/ros_interfaces', 'env': OrderedDict([('HOSTNAME', 'kalyan-linux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-83311f09-1533-4394-b4d9-8bcc3d41c67f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29012cff2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspace/build/ros_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/pubsub:/workspace/install/srvcli:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.883244] (ros_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.883437] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_interfaces\n'}
+[0.883913] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[0.884130] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[0.884352] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/add_tree_ints.h\n'}
+[0.884534] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[0.884743] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__functions.c\n'}
+[0.884943] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__functions.h\n'}
+[0.885082] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.h\n'}
+[0.885242] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__struct.h\n'}
+[0.885453] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[0.885724] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/num.h\n'}
+[0.885952] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[0.886252] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__struct.h\n'}
+[0.886399] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__functions.h\n'}
+[0.886566] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__functions.c\n'}
+[0.886740] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__functions.h\n'}
+[0.887001] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__struct.h\n'}
+[0.887158] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.h\n'}
+[0.887321] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.h\n'}
+[0.887456] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__functions.c\n'}
+[0.887588] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.887745] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/sphere.h\n'}
+[0.887976] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/library_path.sh\n'}
+[0.888184] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/library_path.dsv\n'}
+[0.888326] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_c.so\n'}
+[0.888502] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[0.888680] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[0.888847] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[0.889026] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.889213] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[0.889388] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[0.889574] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.889761] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[0.890072] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.890315] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.890464] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[0.890615] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[0.890763] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/add_tree_ints.hpp\n'}
+[0.890911] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[0.891057] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__struct.hpp\n'}
+[0.891206] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__builder.hpp\n'}
+[0.891356] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__traits.hpp\n'}
+[0.891500] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[0.891650] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[0.891815] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__builder.hpp\n'}
+[0.891967] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__struct.hpp\n'}
+[0.892097] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__struct.hpp\n'}
+[0.892220] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__traits.hpp\n'}
+[0.892343] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__builder.hpp\n'}
+[0.892482] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__traits.hpp\n'}
+[0.892617] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/num.hpp\n'}
+[0.892751] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/sphere.hpp\n'}
+[0.892901] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[0.893038] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[0.893180] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[0.893318] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/dds_fastrtps\n'}
+[0.893460] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.893576] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[0.893692] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[0.893810] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.893929] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.894048] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/dds_fastrtps\n'}
+[0.894165] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.894296] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.894414] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[0.894529] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[0.894646] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[0.894762] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_introspection_c.h\n'}
+[0.894878] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.c\n'}
+[0.894995] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[0.895111] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.895228] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[0.895345] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.895461] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.c\n'}
+[0.895577] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[0.895691] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.c\n'}
+[0.895808] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.895925] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_c.so\n'}
+[0.896046] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[0.896175] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[0.896296] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[0.896427] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.896549] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.cpp\n'}
+[0.896674] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[0.896796] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[0.896917] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.cpp\n'}
+[0.897037] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897158] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[0.897270] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897375] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.897499] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.897610] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/pythonpath.sh\n'}
+[0.897723] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/pythonpath.dsv\n'}
+[0.897860] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.898001] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.898149] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.898298] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.898440] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.898598] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces\n'}
+[0.898732] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.898866] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv\n'}
+[0.898998] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/__init__.py\n'}
+[0.899140] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/_add_tree_ints.py\n'}
+[0.899271] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/_add_tree_ints_s.c\n'}
+[0.899421] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg\n'}
+[0.899578] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_num.py\n'}
+[0.899727] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_sphere.py\n'}
+[0.899869] (-) TimerEvent: {}
+[0.900030] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_sphere_s.c\n'}
+[0.900196] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_num_s.c\n'}
+[0.900348] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/__init__.py\n'}
+[0.900503] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/__init__.py\n'}
+[0.900635] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.900768] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.900900] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.901039] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.901173] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.901305] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/libros_interfaces__rosidl_generator_py.so\n'}
+[0.928581] (ros_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces'...\n"}
+[0.928819] (ros_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg'...\n"}
+[0.928966] (ros_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv'...\n"}
+[0.934816] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.935154] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.935500] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.936045] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_py.so\n'}
+[0.936422] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Num.idl\n'}
+[0.936770] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Sphere.idl\n'}
+[0.937072] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts.idl\n'}
+[0.937244] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Num.msg\n'}
+[0.937369] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Sphere.msg\n'}
+[0.937496] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts.srv\n'}
+[0.937593] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts_Request.msg\n'}
+[0.937762] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts_Response.msg\n'}
+[0.937862] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_interfaces\n'}
+[0.937963] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_interfaces\n'}
+[0.938040] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/ament_prefix_path.sh\n'}
+[0.938132] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.938210] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/path.sh\n'}
+[0.938302] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/path.dsv\n'}
+[0.938399] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.bash\n'}
+[0.938491] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.sh\n'}
+[0.938589] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.zsh\n'}
+[0.938684] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.dsv\n'}
+[0.938776] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/package.dsv\n'}
+[0.938847] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/packages/ros_interfaces\n'}
+[0.938934] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.939030] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.939119] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.939215] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.939306] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.939403] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.939542] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.939690] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.939803] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.939895] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.940047] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.940215] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.940429] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.940655] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.940848] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.940972] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.941094] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.941216] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.941338] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.941461] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.941583] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.941705] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.941838] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.941962] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.942087] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfacesConfig.cmake\n'}
+[0.942208] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfacesConfig-version.cmake\n'}
+[0.942330] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/package.xml\n'}
+[0.943345] (ros_interfaces) CommandEnded: {'returncode': 0}
+[0.999954] (-) TimerEvent: {}
+[1.040038] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.040871] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.041072] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.041271] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.041469] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.041584] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.043552] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.044544] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.044893] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.045003] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.045497] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.045792] (my_py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.045967] (my_py_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.046294] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.047958] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.048387] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.049872] (my_py_pkg) StdoutLine: {'line': b"removing '/workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.050264] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.051156] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.077666] (my_py_pkg) StdoutLine: {'line': b'Installing client script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.078476] (my_py_pkg) StdoutLine: {'line': b'Installing num_count script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.078641] (my_py_pkg) StdoutLine: {'line': b'Installing num_gen script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.078846] (my_py_pkg) StdoutLine: {'line': b'Installing num_reset script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.079099] (my_py_pkg) StdoutLine: {'line': b'Installing server script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.079351] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/my_py_pkg/install.log'\n"}
+[1.090996] (ros_interfaces) JobEnded: {'identifier': 'ros_interfaces', 'rc': 0}
+[1.093086] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.100062] (-) TimerEvent: {}
+[1.102978] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.112768] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.200165] (-) TimerEvent: {}
+[1.300390] (-) TimerEvent: {}
+[1.400692] (-) TimerEvent: {}
+[1.500926] (-) TimerEvent: {}
+[1.528570] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.601040] (-) TimerEvent: {}
+[1.687654] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.701152] (-) TimerEvent: {}
+[1.707905] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.731610] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.731809] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.731883] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.779180] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.780353] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.783077] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.801269] (-) TimerEvent: {}
+[1.830253] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.833668] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/tutorial_interfaces\n'}
+[1.861922] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.873983] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.885134] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[1.901361] (-) TimerEvent: {}
+[2.001638] (-) TimerEvent: {}
+[2.101965] (-) TimerEvent: {}
+[2.121958] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.122694] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[2.122993] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[2.123203] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[2.125803] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[2.126559] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[2.155987] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[2.202083] (-) TimerEvent: {}
+[2.302323] (-) TimerEvent: {}
+[2.402552] (-) TimerEvent: {}
+[2.502825] (-) TimerEvent: {}
+[2.603027] (-) TimerEvent: {}
+[2.696686] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.703151] (-) TimerEvent: {}
+[2.723853] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[2.724219] (tutorial_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[2.724977] (tutorial_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[2.725214] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/action/detail/count_down__functions.c.o\x1b[0m\n'}
+[2.725770] (tutorial_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[2.732612] (tutorial_interfaces) StdoutLine: {'line': b'[ 11%] Built target tutorial_interfaces__cpp\n'}
+[2.754183] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.754545] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.754751] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.803244] (-) TimerEvent: {}
+[2.894877] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.903358] (-) TimerEvent: {}
+[2.943291] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[2.956517] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.956826] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.956974] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.003462] (-) TimerEvent: {}
+[3.103777] (-) TimerEvent: {}
+[3.204079] (-) TimerEvent: {}
+[3.304370] (-) TimerEvent: {}
+[3.357051] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.380475] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.382292] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.382668] (tutorial_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.384301] (tutorial_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.384764] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/action/count_down__type_support.cpp.o\x1b[0m\n'}
+[3.404494] (-) TimerEvent: {}
+[3.504847] (-) TimerEvent: {}
+[3.605442] (-) TimerEvent: {}
+[3.645090] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.670810] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.671216] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.672118] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.705531] (-) TimerEvent: {}
+[3.748558] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.751989] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/action/count_down__type_support.cpp.o\x1b[0m\n'}
+[3.805638] (-) TimerEvent: {}
+[3.866541] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.905745] (-) TimerEvent: {}
+[3.911846] (tutorial_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.915118] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.920070] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.932654] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.941510] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.953442] (tutorial_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/action/detail/count_down__type_support.cpp.o\x1b[0m\n'}
+[4.005848] (-) TimerEvent: {}
+[4.040046] (tutorial_interfaces) StdoutLine: {'line': b'[ 47%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[4.069350] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.105960] (-) TimerEvent: {}
+[4.130818] (tutorial_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[4.165675] (tutorial_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.171553] (tutorial_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.206074] (-) TimerEvent: {}
+[4.306682] (-) TimerEvent: {}
+[4.410416] (-) TimerEvent: {}
+[4.424513] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.448386] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.510528] (-) TimerEvent: {}
+[4.534916] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.594904] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.610645] (-) TimerEvent: {}
+[4.615370] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[4.678688] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/action/detail/dds_fastrtps/count_down__type_support.cpp.o\x1b[0m\n'}
+[4.710770] (-) TimerEvent: {}
+[4.734834] (tutorial_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.797780] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.810896] (-) TimerEvent: {}
+[4.825843] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.832125] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[4.851188] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[4.867509] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/action/detail/count_down__type_support.c.o\x1b[0m\n'}
+[4.898748] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[4.911013] (-) TimerEvent: {}
+[4.981187] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[5.011143] (-) TimerEvent: {}
+[5.036019] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[5.052064] (tutorial_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.111259] (-) TimerEvent: {}
+[5.126198] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/action/detail/count_down__type_support_c.cpp.o\x1b[0m\n'}
+[5.207672] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.211365] (-) TimerEvent: {}
+[5.312122] (-) TimerEvent: {}
+[5.412798] (-) TimerEvent: {}
+[5.461107] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.512907] (-) TimerEvent: {}
+[5.613557] (-) TimerEvent: {}
+[5.657475] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.713678] (-) TimerEvent: {}
+[5.814030] (-) TimerEvent: {}
+[5.835109] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.896339] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.914154] (-) TimerEvent: {}
+[5.945765] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.000993] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.014251] (-) TimerEvent: {}
+[6.027665] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] Built target tutorial_interfaces\n'}
+[6.061300] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.114336] (-) TimerEvent: {}
+[6.214586] (-) TimerEvent: {}
+[6.314832] (-) TimerEvent: {}
+[6.415064] (-) TimerEvent: {}
+[6.515298] (-) TimerEvent: {}
+[6.615543] (-) TimerEvent: {}
+[6.715785] (-) TimerEvent: {}
+[6.816025] (-) TimerEvent: {}
+[6.916295] (-) TimerEvent: {}
+[7.016525] (-) TimerEvent: {}
+[7.116767] (-) TimerEvent: {}
+[7.217003] (-) TimerEvent: {}
+[7.317245] (-) TimerEvent: {}
+[7.417524] (-) TimerEvent: {}
+[7.438151] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__py\n'}
+[7.449193] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[7.469623] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[7.469969] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[7.470181] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[7.470442] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[7.470732] (tutorial_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/action/_count_down_s.c.o\x1b[0m\n'}
+[7.517629] (-) TimerEvent: {}
+[7.617994] (-) TimerEvent: {}
+[7.632906] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.677264] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[7.689035] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.689273] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.689453] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.704631] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.704936] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.705114] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.718115] (-) TimerEvent: {}
+[7.818470] (-) TimerEvent: {}
+[7.893199] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.894947] (tutorial_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.895232] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.918577] (-) TimerEvent: {}
+[7.951046] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.953327] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.957432] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.969573] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.018677] (-) TimerEvent: {}
+[8.104191] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[8.105183] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/tutorial_interfaces'], 'cwd': '/workspace/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'kalyan-linux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/workspace/Desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-83311f09-1533-4394-b4d9-8bcc3d41c67f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29012cff2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspace/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/pubsub:/workspace/install/srvcli:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble')]), 'shell': False}
+[8.112787] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.113183] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[8.113262] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.113364] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action\n'}
+[8.113430] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail\n'}
+[8.113516] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__type_support.h\n'}
+[8.113578] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.h\n'}
+[8.113669] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__functions.h\n'}
+[8.113730] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__struct.h\n'}
+[8.113823] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__struct.h\n'}
+[8.113885] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__functions.h\n'}
+[8.113944] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__functions.c\n'}
+[8.114003] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__functions.h\n'}
+[8.114104] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__struct.h\n'}
+[8.114173] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__functions.c\n'}
+[8.114324] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__type_support.h\n'}
+[8.114462] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__functions.c\n'}
+[8.114665] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/count_down.h\n'}
+[8.114796] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/fibonacci.h\n'}
+[8.114937] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/count.h\n'}
+[8.115022] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.115106] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.115166] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[8.115256] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[8.115339] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[8.115444] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[8.115606] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h\n'}
+[8.115735] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.115822] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[8.115915] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.115999] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[8.116095] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[8.116378] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[8.116520] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[8.116650] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[8.116781] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[8.116907] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[8.117041] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[8.117153] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.117240] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h\n'}
+[8.117371] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[8.117460] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[8.117763] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[8.118307] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.118395] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.118501] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action\n'}
+[8.118556] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail\n'}
+[8.118609] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__rosidl_typesupport_fastrtps_c.h\n'}
+[8.118701] (-) TimerEvent: {}
+[8.118775] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__rosidl_typesupport_fastrtps_c.h\n'}
+[8.118869] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[8.118929] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.119042] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.119118] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[8.119172] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.119250] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.119303] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[8.119376] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[8.119428] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.119635] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.120418] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.120574] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.120684] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action\n'}
+[8.120874] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail\n'}
+[8.120998] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__struct.hpp\n'}
+[8.121116] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__builder.hpp\n'}
+[8.121251] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__traits.hpp\n'}
+[8.121370] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[8.121499] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__struct.hpp\n'}
+[8.121574] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[8.121671] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__builder.hpp\n'}
+[8.121744] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[8.121814] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__traits.hpp\n'}
+[8.121921] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/fibonacci.hpp\n'}
+[8.122036] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/count.hpp\n'}
+[8.122108] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/count_down.hpp\n'}
+[8.122205] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.122302] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[8.122397] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.122497] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[8.122618] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[8.122755] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[8.122895] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.122997] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.123059] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[8.123137] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[8.123219] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[8.123335] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[8.123474] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[8.123657] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[8.123839] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[8.124015] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp\n'}
+[8.124266] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.124408] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action\n'}
+[8.124517] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail\n'}
+[8.124580] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.124680] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.124771] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.124862] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/dds_fastrtps\n'}
+[8.125037] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.125205] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.125367] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.125528] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[8.125688] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.125806] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.125949] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.126092] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.126241] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[8.126381] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.126545] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.126717] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.126902] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.127010] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action\n'}
+[8.127163] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail\n'}
+[8.127294] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__type_support.c\n'}
+[8.127396] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[8.127562] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__rosidl_typesupport_introspection_c.h\n'}
+[8.127674] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__rosidl_typesupport_introspection_c.h\n'}
+[8.127845] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__type_support.c\n'}
+[8.127959] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.c\n'}
+[8.128099] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.128266] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.128384] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[8.128568] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[8.128663] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.128762] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.128877] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.128971] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[8.129084] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[8.129178] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[8.129271] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[8.129396] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.129730] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.130007] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[8.130580] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.130694] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.130801] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action\n'}
+[8.130904] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail\n'}
+[8.130993] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.131096] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.131201] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count_down__type_support.cpp\n'}
+[8.131291] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__type_support.cpp\n'}
+[8.131402] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/count__type_support.cpp\n'}
+[8.131534] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.131693] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.131839] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.131964] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[8.132113] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.132265] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.132387] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[8.132509] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[8.132615] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.132706] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[8.132795] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.132904] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.133073] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.133235] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.133703] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.133796] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[8.133889] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[8.133988] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.134059] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.134146] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.134236] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.134346] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.134515] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[8.134600] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action\n'}
+[8.134666] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_count_s.c\n'}
+[8.134720] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_fibonacci.py\n'}
+[8.134788] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_count_down_s.c\n'}
+[8.134871] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_count.py\n'}
+[8.134936] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/__init__.py\n'}
+[8.135002] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_count_down.py\n'}
+[8.135127] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_fibonacci_s.c\n'}
+[8.135251] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.135494] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.135715] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.135974] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.136273] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[8.136381] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[8.136485] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[8.136585] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[8.136687] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[8.136848] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[8.136915] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[8.136982] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[8.137083] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[8.137180] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[8.137275] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[8.137371] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[8.137470] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.137732] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.182120] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[8.182262] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[8.182325] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action'...\n"}
+[8.182382] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/__init__.py'...\n"}
+[8.182452] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_count_down.py'...\n"}
+[8.182506] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/action/_fibonacci.py'...\n"}
+[8.182560] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[8.182614] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[8.182667] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...\n"}
+[8.182720] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...\n"}
+[8.182773] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[8.182833] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[8.182888] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...\n"}
+[8.186218] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.186660] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.186866] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.187244] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.187447] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.187845] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.188018] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[8.188472] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.188644] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[8.188715] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[8.188783] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[8.188850] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/action/Fibonacci.idl\n'}
+[8.189015] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/action/CountDown.idl\n'}
+[8.189152] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[8.189248] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[8.189312] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[8.189392] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[8.189508] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[8.189686] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/action/Fibonacci.action\n'}
+[8.189810] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/action/CountDown.action\n'}
+[8.189933] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[8.190067] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[8.190202] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[8.190294] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.190443] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[8.190594] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[8.190739] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[8.190883] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[8.191004] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[8.191105] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[8.191279] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[8.191449] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[8.191599] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.191695] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.191795] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.191903] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.191998] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.192093] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.192187] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.192282] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.192376] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.192491] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.192593] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.192696] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.192799] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.192915] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.193071] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.193180] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.193325] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.193598] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.195578] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.195881] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.196001] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.196139] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.196275] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.196421] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.196501] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[8.196603] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[8.196711] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[8.196812] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.218819] (-) TimerEvent: {}
+[8.319027] (-) TimerEvent: {}
+[8.348847] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[8.349466] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[8.360408] (srvcli) JobStarted: {'identifier': 'srvcli'}
+[8.419147] (-) TimerEvent: {}
+[8.519388] (-) TimerEvent: {}
+[8.619631] (-) TimerEvent: {}
+[8.719919] (-) TimerEvent: {}
+[8.820166] (-) TimerEvent: {}
+[8.920462] (-) TimerEvent: {}
+[9.020687] (-) TimerEvent: {}
+[9.120966] (-) TimerEvent: {}
+[9.189519] (pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pubsub', 'build', '--build-base', '/workspace/build/pubsub/build', 'install', '--record', '/workspace/build/pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/pubsub', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/Desktop', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-83311f09-1533-4394-b4d9-8bcc3d41c67f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/pubsub/prefix_override:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces'}, 'shell': False}
+[9.198959] (srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/srvcli', 'build', '--build-base', '/workspace/build/srvcli/build', 'install', '--record', '/workspace/build/srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/srvcli', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/Desktop', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-83311f09-1533-4394-b4d9-8bcc3d41c67f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/srvcli', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/srvcli/prefix_override:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces'}, 'shell': False}
+[9.221077] (-) TimerEvent: {}
+[9.321330] (-) TimerEvent: {}
+[9.404184] (pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[9.404761] (pubsub) StdoutLine: {'line': b'writing ../../build/pubsub/pubsub.egg-info/PKG-INFO\n'}
+[9.404966] (pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt\n'}
+[9.405129] (pubsub) StdoutLine: {'line': b'writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt\n'}
+[9.405407] (pubsub) StdoutLine: {'line': b'writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt\n'}
+[9.405644] (pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt\n'}
+[9.405816] (srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[9.406048] (srvcli) StdoutLine: {'line': b'writing ../../build/srvcli/srvcli.egg-info/PKG-INFO\n'}
+[9.406258] (srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt\n'}
+[9.406442] (srvcli) StdoutLine: {'line': b'writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt\n'}
+[9.406624] (srvcli) StdoutLine: {'line': b'writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt\n'}
+[9.406797] (srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt\n'}
+[9.407350] (pubsub) StdoutLine: {'line': b"reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[9.408380] (pubsub) StdoutLine: {'line': b"writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[9.408704] (pubsub) StdoutLine: {'line': b'running build\n'}
+[9.408828] (pubsub) StdoutLine: {'line': b'running build_py\n'}
+[9.408927] (srvcli) StdoutLine: {'line': b"reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[9.409159] (pubsub) StdoutLine: {'line': b'running install\n'}
+[9.409299] (pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.409448] (pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.409624] (pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[9.409824] (srvcli) StdoutLine: {'line': b"writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[9.410098] (srvcli) StdoutLine: {'line': b'running build\n'}
+[9.410243] (srvcli) StdoutLine: {'line': b'running build_py\n'}
+[9.410598] (srvcli) StdoutLine: {'line': b'running install\n'}
+[9.410796] (srvcli) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.410939] (srvcli) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.411256] (srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[9.411758] (pubsub) StdoutLine: {'line': b'running install_data\n'}
+[9.412204] (pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.413106] (srvcli) StdoutLine: {'line': b'running install_data\n'}
+[9.413544] (srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.413741] (pubsub) StdoutLine: {'line': b"removing '/workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.414023] (pubsub) StdoutLine: {'line': b'Copying ../../build/pubsub/pubsub.egg-info to /workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info\n'}
+[9.414979] (pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[9.415075] (srvcli) StdoutLine: {'line': b"removing '/workspace/install/srvcli/lib/python3.10/site-packages/srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.415245] (srvcli) StdoutLine: {'line': b'Copying ../../build/srvcli/srvcli.egg-info to /workspace/install/srvcli/lib/python3.10/site-packages/srvcli-0.0.0-py3.10.egg-info\n'}
+[9.416176] (srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[9.421441] (-) TimerEvent: {}
+[9.434827] (pubsub) StdoutLine: {'line': b'Installing listener script to /workspace/install/pubsub/lib/pubsub\n'}
+[9.435069] (pubsub) StdoutLine: {'line': b'Installing talker script to /workspace/install/pubsub/lib/pubsub\n'}
+[9.435230] (pubsub) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/pubsub/install.log'\n"}
+[9.435712] (srvcli) StdoutLine: {'line': b'Installing client script to /workspace/install/srvcli/lib/srvcli\n'}
+[9.435875] (srvcli) StdoutLine: {'line': b'Installing service script to /workspace/install/srvcli/lib/srvcli\n'}
+[9.436143] (srvcli) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/srvcli/install.log'\n"}
+[9.467164] (pubsub) CommandEnded: {'returncode': 0}
+[9.474758] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 0}
+[9.475281] (srvcli) CommandEnded: {'returncode': 0}
+[9.480961] (srvcli) JobEnded: {'identifier': 'srvcli', 'rc': 0}
+[9.481647] (-) EventReactorShutdown: {}

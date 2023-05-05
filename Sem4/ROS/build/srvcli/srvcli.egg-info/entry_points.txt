@@ -1,0 +1,4 @@
+[console_scripts]
+client = srvcli.cli_mem:main
+service = srvcli.serv_mem:main
+

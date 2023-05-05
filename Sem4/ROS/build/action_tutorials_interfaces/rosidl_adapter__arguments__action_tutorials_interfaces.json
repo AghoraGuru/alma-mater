@@ -1,0 +1,7 @@
+{
+  "package_name": "action_tutorials_interfaces",
+  "non_idl_tuples": [
+    "/workspace/src/action_tutorials_interfaces:action/Fibonacci.action",
+    "/workspace/src/action_tutorials_interfaces:action/Countdown.action"
+  ]
+}

@@ -1,0 +1,23 @@
+[0.266s] Invoking command in '/workspace/build/ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /workspace/build/ros_interfaces -- -j12 -l12
+[0.326s] [ 10%] Built target ros_interfaces__rosidl_generator_c
+[0.327s] [ 12%] Built target ros_interfaces__cpp
+[0.341s] [ 12%] Built target ament_cmake_python_copy_ros_interfaces
+[0.362s] [ 23%] Built target ros_interfaces__rosidl_typesupport_cpp
+[0.364s] [ 42%] Built target ros_interfaces__rosidl_typesupport_c
+[0.364s] [ 44%] Built target ros_interfaces__rosidl_typesupport_introspection_c
+[0.367s] [ 55%] Built target ros_interfaces__rosidl_typesupport_introspection_cpp
+[0.368s] [ 65%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c
+[0.370s] [ 76%] Built target ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.404s] [ 76%] Built target ros_interfaces
+[0.433s] [ 78%] Built target ros_interfaces__py
+[0.461s] [ 87%] Built target ros_interfaces__rosidl_generator_py
+[0.494s] [ 95%] Built target ros_interfaces__rosidl_typesupport_c__pyext
+[0.494s] [ 95%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.494s] [100%] Built target ros_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.626s] running egg_info
+[0.627s] writing ros_interfaces.egg-info/PKG-INFO
+[0.627s] writing dependency_links to ros_interfaces.egg-info/dependency_links.txt
+[0.627s] writing top-level names to ros_interfaces.egg-info/top_level.txt
+[0.630s] reading manifest file 'ros_interfaces.egg-info/SOURCES.txt'
+[0.631s] writing manifest file 'ros_interfaces.egg-info/SOURCES.txt'
+[0.663s] [100%] Built target ament_cmake_python_build_ros_interfaces_egg

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_tutorials_interfaces/action/Count.action
+// generated code does not contain a copyright notice
+
+
+module action_tutorials_interfaces {
+  module action {
+    struct Count_Goal {
+      int32 dur;
+    };
+    struct Count_Result {
+      int32 dur_rem;
+    };
+    struct Count_Feedback {
+      int32 succ;
+    };
+  };
+};

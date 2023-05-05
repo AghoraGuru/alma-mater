@@ -1,0 +1,32 @@
+[0.836s] Invoking command in '/workspace/src/tutorial_interfaces': PYTHONPATH=/workspace/build/tutorial_interfaces/prefix_override:/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorial_interfaces build --build-base /workspace/build/tutorial_interfaces/build install --record /workspace/build/tutorial_interfaces/install.log --single-version-externally-managed
+[1.073s] running egg_info
+[1.073s] creating ../../build/tutorial_interfaces/tutorial_interfaces.egg-info
+[1.074s] writing ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/PKG-INFO
+[1.074s] writing dependency_links to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/dependency_links.txt
+[1.074s] writing entry points to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/entry_points.txt
+[1.074s] writing requirements to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/requires.txt
+[1.074s] writing top-level names to ../../build/tutorial_interfaces/tutorial_interfaces.egg-info/top_level.txt
+[1.074s] writing manifest file '../../build/tutorial_interfaces/tutorial_interfaces.egg-info/SOURCES.txt'
+[1.076s] reading manifest file '../../build/tutorial_interfaces/tutorial_interfaces.egg-info/SOURCES.txt'
+[1.076s] writing manifest file '../../build/tutorial_interfaces/tutorial_interfaces.egg-info/SOURCES.txt'
+[1.077s] running build
+[1.077s] running build_py
+[1.077s] creating /workspace/build/tutorial_interfaces/build
+[1.077s] creating /workspace/build/tutorial_interfaces/build/lib
+[1.077s] creating /workspace/build/tutorial_interfaces/build/lib/tutorial_interfaces
+[1.077s] copying tutorial_interfaces/__init__.py -> /workspace/build/tutorial_interfaces/build/lib/tutorial_interfaces
+[1.077s] running install
+[1.077s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.078s]   warnings.warn(
+[1.078s] running install_lib
+[1.078s] creating /workspace/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces
+[1.078s] copying /workspace/build/tutorial_interfaces/build/lib/tutorial_interfaces/__init__.py -> /workspace/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces
+[1.079s] byte-compiling /workspace/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/__init__.py to __init__.cpython-310.pyc
+[1.079s] running install_data
+[1.080s] copying resource/tutorial_interfaces -> /workspace/install/tutorial_interfaces/share/ament_index/resource_index/packages
+[1.080s] copying package.xml -> /workspace/install/tutorial_interfaces/share/tutorial_interfaces
+[1.080s] running install_egg_info
+[1.081s] Copying ../../build/tutorial_interfaces/tutorial_interfaces.egg-info to /workspace/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[1.082s] running install_scripts
+[1.109s] writing list of installed files to '/workspace/build/tutorial_interfaces/install.log'
+[1.141s] Invoked command in '/workspace/src/tutorial_interfaces' returned '0': PYTHONPATH=/workspace/build/tutorial_interfaces/prefix_override:/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tutorial_interfaces build --build-base /workspace/build/tutorial_interfaces/build install --record /workspace/build/tutorial_interfaces/install.log --single-version-externally-managed

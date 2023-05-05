@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000183] (-) JobUnselected: {'identifier': 'ros_interfaces'}
+[0.000204] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.000257] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.098770] (-) TimerEvent: {}
+[0.199023] (-) TimerEvent: {}
+[0.299309] (-) TimerEvent: {}
+[0.399566] (-) TimerEvent: {}
+[0.499818] (-) TimerEvent: {}
+[0.542581] (pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pubsub', 'build', '--build-base', '/workspace/build/pubsub/build', 'install', '--record', '/workspace/build/pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/pubsub', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/src', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-98d132bb-a750-422b-9f61-8aa20201224d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-06e2311a-f86c-413a-bc1d-344a1ca08278.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X3","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/pubsub/prefix_override:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/ros_interfaces'}, 'shell': False}
+[0.599911] (-) TimerEvent: {}
+[0.700203] (-) TimerEvent: {}
+[0.749843] (pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.750281] (pubsub) StdoutLine: {'line': b'creating ../../build/pubsub/pubsub.egg-info\n'}
+[0.750438] (pubsub) StdoutLine: {'line': b'writing ../../build/pubsub/pubsub.egg-info/PKG-INFO\n'}
+[0.750597] (pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt\n'}
+[0.750724] (pubsub) StdoutLine: {'line': b'writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt\n'}
+[0.750804] (pubsub) StdoutLine: {'line': b'writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt\n'}
+[0.750863] (pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt\n'}
+[0.750917] (pubsub) StdoutLine: {'line': b"writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[0.752337] (pubsub) StdoutLine: {'line': b"reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[0.752821] (pubsub) StdoutLine: {'line': b"writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[0.752985] (pubsub) StdoutLine: {'line': b'running build\n'}
+[0.753074] (pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.753268] (pubsub) StdoutLine: {'line': b'creating /workspace/build/pubsub/build\n'}
+[0.753380] (pubsub) StdoutLine: {'line': b'creating /workspace/build/pubsub/build/lib\n'}
+[0.753475] (pubsub) StdoutLine: {'line': b'creating /workspace/build/pubsub/build/lib/pubsub\n'}
+[0.753566] (pubsub) StdoutLine: {'line': b'copying pubsub/sub_mem_fn.py -> /workspace/build/pubsub/build/lib/pubsub\n'}
+[0.753657] (pubsub) StdoutLine: {'line': b'copying pubsub/pub_mem_fn.py -> /workspace/build/pubsub/build/lib/pubsub\n'}
+[0.753747] (pubsub) StdoutLine: {'line': b'copying pubsub/__init__.py -> /workspace/build/pubsub/build/lib/pubsub\n'}
+[0.753837] (pubsub) StdoutLine: {'line': b'running install\n'}
+[0.761168] (pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.761267] (pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.761516] (pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.762088] (pubsub) StdoutLine: {'line': b'creating /workspace/install/pubsub/lib/python3.10/site-packages/pubsub\n'}
+[0.762268] (pubsub) StdoutLine: {'line': b'copying /workspace/build/pubsub/build/lib/pubsub/sub_mem_fn.py -> /workspace/install/pubsub/lib/python3.10/site-packages/pubsub\n'}
+[0.762422] (pubsub) StdoutLine: {'line': b'copying /workspace/build/pubsub/build/lib/pubsub/pub_mem_fn.py -> /workspace/install/pubsub/lib/python3.10/site-packages/pubsub\n'}
+[0.762530] (pubsub) StdoutLine: {'line': b'copying /workspace/build/pubsub/build/lib/pubsub/__init__.py -> /workspace/install/pubsub/lib/python3.10/site-packages/pubsub\n'}
+[0.762759] (pubsub) StdoutLine: {'line': b'byte-compiling /workspace/install/pubsub/lib/python3.10/site-packages/pubsub/sub_mem_fn.py to sub_mem_fn.cpython-310.pyc\n'}
+[0.763122] (pubsub) StdoutLine: {'line': b'byte-compiling /workspace/install/pubsub/lib/python3.10/site-packages/pubsub/pub_mem_fn.py to pub_mem_fn.cpython-310.pyc\n'}
+[0.763491] (pubsub) StdoutLine: {'line': b'byte-compiling /workspace/install/pubsub/lib/python3.10/site-packages/pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.763705] (pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.764097] (pubsub) StdoutLine: {'line': b'creating /workspace/install/pubsub/share/ament_index\n'}
+[0.764311] (pubsub) StdoutLine: {'line': b'creating /workspace/install/pubsub/share/ament_index/resource_index\n'}
+[0.764430] (pubsub) StdoutLine: {'line': b'creating /workspace/install/pubsub/share/ament_index/resource_index/packages\n'}
+[0.764539] (pubsub) StdoutLine: {'line': b'copying resource/pubsub -> /workspace/install/pubsub/share/ament_index/resource_index/packages\n'}
+[0.764596] (pubsub) StdoutLine: {'line': b'copying package.xml -> /workspace/install/pubsub/share/pubsub\n'}
+[0.764650] (pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.765831] (pubsub) StdoutLine: {'line': b'Copying ../../build/pubsub/pubsub.egg-info to /workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info\n'}
+[0.766694] (pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.783675] (pubsub) StdoutLine: {'line': b'Installing listener script to /workspace/install/pubsub/lib/pubsub\n'}
+[0.783919] (pubsub) StdoutLine: {'line': b'Installing talker script to /workspace/install/pubsub/lib/pubsub\n'}
+[0.784058] (pubsub) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/pubsub/install.log'\n"}
+[0.800315] (-) TimerEvent: {}
+[0.801549] (pubsub) CommandEnded: {'returncode': 0}
+[0.816063] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 0}
+[0.816614] (-) EventReactorShutdown: {}

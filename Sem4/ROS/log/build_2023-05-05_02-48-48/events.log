@@ -1,0 +1,424 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000143] (pubsub) JobQueued: {'identifier': 'pubsub', 'dependencies': OrderedDict()}
+[0.000191] (ros_interfaces) JobQueued: {'identifier': 'ros_interfaces', 'dependencies': OrderedDict()}
+[0.000624] (srvcli) JobQueued: {'identifier': 'srvcli', 'dependencies': OrderedDict()}
+[0.000654] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.019808] (pubsub) JobStarted: {'identifier': 'pubsub'}
+[0.029809] (ros_interfaces) JobStarted: {'identifier': 'ros_interfaces'}
+[0.039791] (srvcli) JobStarted: {'identifier': 'srvcli'}
+[0.099120] (-) TimerEvent: {}
+[0.199515] (-) TimerEvent: {}
+[0.299758] (-) TimerEvent: {}
+[0.399977] (-) TimerEvent: {}
+[0.500227] (-) TimerEvent: {}
+[0.512671] (ros_interfaces) JobProgress: {'identifier': 'ros_interfaces', 'progress': 'cmake'}
+[0.513919] (ros_interfaces) JobProgress: {'identifier': 'ros_interfaces', 'progress': 'build'}
+[0.513956] (ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/ros_interfaces', '--', '-j12', '-l12'], 'cwd': '/workspace/build/ros_interfaces', 'env': OrderedDict([('HOSTNAME', 'kalyan-linux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-59419a73-22d4-4e20-a736-4c40d264a25d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a507d9e7-71b8-4c88-ab90-a144f410acc6.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29012cff2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspace/build/ros_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.545657] (ros_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600319] (-) TimerEvent: {}
+[0.700618] (-) TimerEvent: {}
+[0.718451] (ros_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.787465] (ros_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.800717] (-) TimerEvent: {}
+[0.823383] (ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.827545] (ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.836110] (ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.854005] (ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.877758] (ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900810] (-) TimerEvent: {}
+[1.001109] (-) TimerEvent: {}
+[1.048684] (ros_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.101233] (-) TimerEvent: {}
+[1.156876] (srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/srvcli', 'build', '--build-base', '/workspace/build/srvcli/build', 'install', '--record', '/workspace/build/srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/srvcli', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-59419a73-22d4-4e20-a736-4c40d264a25d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a507d9e7-71b8-4c88-ab90-a144f410acc6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X4', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/srvcli', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/srvcli/prefix_override:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces'}, 'shell': False}
+[1.160187] (pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pubsub', 'build', '--build-base', '/workspace/build/pubsub/build', 'install', '--record', '/workspace/build/pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/pubsub', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-59419a73-22d4-4e20-a736-4c40d264a25d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a507d9e7-71b8-4c88-ab90-a144f410acc6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X4', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/pubsub/prefix_override:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces'}, 'shell': False}
+[1.168666] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/workspace/build/my_py_pkg/build', 'install', '--record', '/workspace/build/my_py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/my_py_pkg', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-59419a73-22d4-4e20-a736-4c40d264a25d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a507d9e7-71b8-4c88-ab90-a144f410acc6.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X4', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/my_py_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/my_py_pkg/prefix_override:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces'}, 'shell': False}
+[1.201333] (-) TimerEvent: {}
+[1.301634] (-) TimerEvent: {}
+[1.401930] (-) TimerEvent: {}
+[1.422216] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.422544] (pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.423093] (pubsub) StdoutLine: {'line': b'writing ../../build/pubsub/pubsub.egg-info/PKG-INFO\n'}
+[1.423346] (pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt\n'}
+[1.423541] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[1.423831] (pubsub) StdoutLine: {'line': b'writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt\n'}
+[1.424054] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[1.424287] (pubsub) StdoutLine: {'line': b'writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt\n'}
+[1.424456] (pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt\n'}
+[1.424608] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[1.424770] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[1.424916] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[1.427379] (pubsub) StdoutLine: {'line': b"reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.427813] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.428509] (pubsub) StdoutLine: {'line': b"writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'\n"}
+[1.428734] (pubsub) StdoutLine: {'line': b'running build\n'}
+[1.428985] (pubsub) StdoutLine: {'line': b'running build_py\n'}
+[1.429155] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[1.429328] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.429570] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.429822] (pubsub) StdoutLine: {'line': b'running install\n'}
+[1.430034] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.430205] (pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.430385] (pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.430513] (my_py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.430654] (my_py_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.430795] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.430930] (pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[1.432317] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.432758] (pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.433851] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.434287] (pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.436203] (pubsub) StdoutLine: {'line': b"removing '/workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.436533] (my_py_pkg) StdoutLine: {'line': b"removing '/workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.436830] (pubsub) StdoutLine: {'line': b'Copying ../../build/pubsub/pubsub.egg-info to /workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info\n'}
+[1.436990] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.438025] (pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[1.438318] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.438482] (srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.438867] (srvcli) StdoutLine: {'line': b'writing ../../build/srvcli/srvcli.egg-info/PKG-INFO\n'}
+[1.439170] (srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/srvcli/srvcli.egg-info/dependency_links.txt\n'}
+[1.439417] (srvcli) StdoutLine: {'line': b'writing entry points to ../../build/srvcli/srvcli.egg-info/entry_points.txt\n'}
+[1.439643] (srvcli) StdoutLine: {'line': b'writing requirements to ../../build/srvcli/srvcli.egg-info/requires.txt\n'}
+[1.439854] (srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/srvcli/srvcli.egg-info/top_level.txt\n'}
+[1.441942] (srvcli) StdoutLine: {'line': b"reading manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[1.443145] (srvcli) StdoutLine: {'line': b"writing manifest file '../../build/srvcli/srvcli.egg-info/SOURCES.txt'\n"}
+[1.443498] (srvcli) StdoutLine: {'line': b'running build\n'}
+[1.443724] (srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.443980] (srvcli) StdoutLine: {'line': b'running install\n'}
+[1.444213] (srvcli) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.444424] (srvcli) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.444570] (srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.445987] (srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.446475] (srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.448242] (srvcli) StdoutLine: {'line': b"removing '/workspace/install/srvcli/lib/python3.10/site-packages/srvcli-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.448562] (srvcli) StdoutLine: {'line': b'Copying ../../build/srvcli/srvcli.egg-info to /workspace/install/srvcli/lib/python3.10/site-packages/srvcli-0.0.0-py3.10.egg-info\n'}
+[1.449847] (srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.467046] (pubsub) StdoutLine: {'line': b'Installing listener script to /workspace/install/pubsub/lib/pubsub\n'}
+[1.467303] (pubsub) StdoutLine: {'line': b'Installing talker script to /workspace/install/pubsub/lib/pubsub\n'}
+[1.467513] (pubsub) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/pubsub/install.log'\n"}
+[1.467764] (my_py_pkg) StdoutLine: {'line': b'Installing client script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.467962] (my_py_pkg) StdoutLine: {'line': b'Installing num_count script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.468127] (my_py_pkg) StdoutLine: {'line': b'Installing num_gen script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.468280] (my_py_pkg) StdoutLine: {'line': b'Installing num_reset script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.468502] (my_py_pkg) StdoutLine: {'line': b'Installing server script to /workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[1.468722] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/my_py_pkg/install.log'\n"}
+[1.475745] (srvcli) StdoutLine: {'line': b'Installing client script to /workspace/install/srvcli/lib/srvcli\n'}
+[1.476045] (srvcli) StdoutLine: {'line': b'Installing service script to /workspace/install/srvcli/lib/srvcli\n'}
+[1.476186] (ros_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.476348] (srvcli) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/srvcli/install.log'\n"}
+[1.498367] (my_py_pkg) CommandEnded: {'returncode': 0}
+[1.502518] (-) TimerEvent: {}
+[1.513713] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[1.517591] (srvcli) CommandEnded: {'returncode': 0}
+[1.527204] (srvcli) JobEnded: {'identifier': 'srvcli', 'rc': 0}
+[1.530948] (pubsub) CommandEnded: {'returncode': 0}
+[1.541100] (pubsub) JobEnded: {'identifier': 'pubsub', 'rc': 0}
+[1.602653] (-) TimerEvent: {}
+[1.702887] (-) TimerEvent: {}
+[1.803111] (-) TimerEvent: {}
+[1.903408] (-) TimerEvent: {}
+[1.967474] (ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.003522] (-) TimerEvent: {}
+[2.103756] (-) TimerEvent: {}
+[2.129155] (ros_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.151605] (ros_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.173360] (ros_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.173500] (ros_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.173566] (ros_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.203862] (-) TimerEvent: {}
+[2.222927] (ros_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.224156] (ros_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.227185] (ros_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.267164] (ros_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.269719] (ros_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/ros_interfaces\n'}
+[2.293574] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.303930] (ros_interfaces) StdoutLine: {'line': b'[  1%] Built target ros_interfaces__cpp\n'}
+[2.304101] (-) TimerEvent: {}
+[2.308103] (ros_interfaces) StdoutLine: {'line': b'[ 12%] Built target ros_interfaces__rosidl_generator_c\n'}
+[2.322427] (ros_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_ros_interfaces\n'}
+[2.324256] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.324575] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.324857] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.329845] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.330242] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.332565] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.352108] (ros_interfaces) StdoutLine: {'line': b'[ 23%] Built target ros_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.352837] (ros_interfaces) StdoutLine: {'line': b'[ 34%] Built target ros_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.355701] (ros_interfaces) StdoutLine: {'line': b'[ 46%] Built target ros_interfaces__rosidl_typesupport_c\n'}
+[2.357029] (ros_interfaces) StdoutLine: {'line': b'[ 57%] Built target ros_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.357562] (ros_interfaces) StdoutLine: {'line': b'[ 68%] Built target ros_interfaces__rosidl_typesupport_cpp\n'}
+[2.360379] (ros_interfaces) StdoutLine: {'line': b'[ 79%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.384254] (ros_interfaces) StdoutLine: {'line': b'[ 79%] Built target ros_interfaces\n'}
+[2.404215] (-) TimerEvent: {}
+[2.405872] (ros_interfaces) StdoutLine: {'line': b'[ 80%] Built target ros_interfaces__py\n'}
+[2.419817] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_generator_py\x1b[0m\n'}
+[2.440295] (ros_interfaces) StdoutLine: {'line': b'[ 90%] Built target ros_interfaces__rosidl_generator_py\n'}
+[2.452914] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.453076] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.453163] (ros_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.468547] (ros_interfaces) StdoutLine: {'line': b'[ 96%] Built target ros_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.468862] (ros_interfaces) StdoutLine: {'line': b'[ 96%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.469050] (ros_interfaces) StdoutLine: {'line': b'[100%] Built target ros_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.504310] (-) TimerEvent: {}
+[2.588985] (ros_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.589613] (ros_interfaces) StdoutLine: {'line': b'writing ros_interfaces.egg-info/PKG-INFO\n'}
+[2.589759] (ros_interfaces) StdoutLine: {'line': b'writing dependency_links to ros_interfaces.egg-info/dependency_links.txt\n'}
+[2.589928] (ros_interfaces) StdoutLine: {'line': b'writing top-level names to ros_interfaces.egg-info/top_level.txt\n'}
+[2.591982] (ros_interfaces) StdoutLine: {'line': b"reading manifest file 'ros_interfaces.egg-info/SOURCES.txt'\n"}
+[2.592662] (ros_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_interfaces.egg-info/SOURCES.txt'\n"}
+[2.604445] (-) TimerEvent: {}
+[2.618715] (ros_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ros_interfaces_egg\n'}
+[2.631378] (ros_interfaces) CommandEnded: {'returncode': 0}
+[2.704545] (-) TimerEvent: {}
+[2.783019] (ros_interfaces) JobProgress: {'identifier': 'ros_interfaces', 'progress': 'install'}
+[2.792466] (ros_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/ros_interfaces'], 'cwd': '/workspace/build/ros_interfaces', 'env': OrderedDict([('HOSTNAME', 'kalyan-linux'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspace/install/tutorial_interfaces/lib:/workspace/install/ros_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-59419a73-22d4-4e20-a736-4c40d264a25d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a507d9e7-71b8-4c88-ab90-a144f410acc6.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X4","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29012cff2a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspace/build/ros_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/workspace/install/tutorial_interfaces/lib/python3.10/site-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/tutorial_interfaces:/workspace/install/ros_interfaces:/workspace/install/srvcli:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble')]), 'shell': False}
+[2.803401] (ros_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.803742] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_interfaces\n'}
+[2.803961] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[2.804064] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action\n'}
+[2.804190] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail\n'}
+[2.804382] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__type_support.h\n'}
+[2.804523] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__functions.h\n'}
+[2.804717] (-) TimerEvent: {}
+[2.804943] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__type_support.h\n'}
+[2.805160] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__struct.h\n'}
+[2.805319] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__struct.h\n'}
+[2.805408] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__functions.c\n'}
+[2.805495] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__struct.h\n'}
+[2.805579] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__functions.h\n'}
+[2.805663] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__functions.h\n'}
+[2.805784] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__functions.c\n'}
+[2.805869] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__type_support.h\n'}
+[2.805974] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__functions.c\n'}
+[2.806046] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/count_down.h\n'}
+[2.806151] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/fibonacci.h\n'}
+[2.806328] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/countdown.h\n'}
+[2.806663] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[2.806950] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/add_tree_ints.h\n'}
+[2.807165] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[2.807376] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__functions.c\n'}
+[2.807587] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__functions.h\n'}
+[2.807895] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.h\n'}
+[2.808175] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__struct.h\n'}
+[2.808475] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[2.808760] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/num.h\n'}
+[2.809018] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[2.809274] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__struct.h\n'}
+[2.809538] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__functions.h\n'}
+[2.809775] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__functions.c\n'}
+[2.809978] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__functions.h\n'}
+[2.810183] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__struct.h\n'}
+[2.810356] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.h\n'}
+[2.810575] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.h\n'}
+[2.810884] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__functions.c\n'}
+[2.811159] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.811401] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/sphere.h\n'}
+[2.811585] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/library_path.sh\n'}
+[2.811786] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/environment/library_path.dsv\n'}
+[2.811952] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_c.so\n'}
+[2.812137] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[2.812334] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action\n'}
+[2.812516] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail\n'}
+[2.812748] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__rosidl_typesupport_fastrtps_c.h\n'}
+[2.813043] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__rosidl_typesupport_fastrtps_c.h\n'}
+[2.813409] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[2.813641] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[2.813773] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[2.813898] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[2.814048] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[2.814170] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[2.814292] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[2.814504] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[2.814654] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.814780] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.814946] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[2.815073] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action\n'}
+[2.815217] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/countdown.hpp\n'}
+[2.815325] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail\n'}
+[2.815479] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__builder.hpp\n'}
+[2.815608] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[2.815725] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__traits.hpp\n'}
+[2.816009] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__struct.hpp\n'}
+[2.816293] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[2.816458] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__builder.hpp\n'}
+[2.816739] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[2.816914] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__struct.hpp\n'}
+[2.817174] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__traits.hpp\n'}
+[2.817545] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/fibonacci.hpp\n'}
+[2.817776] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/count_down.hpp\n'}
+[2.817987] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[2.818107] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/add_tree_ints.hpp\n'}
+[2.818217] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[2.818327] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__struct.hpp\n'}
+[2.818436] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__builder.hpp\n'}
+[2.818546] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__traits.hpp\n'}
+[2.818745] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[2.818897] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[2.819036] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__builder.hpp\n'}
+[2.819175] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__struct.hpp\n'}
+[2.819325] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__struct.hpp\n'}
+[2.819478] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__traits.hpp\n'}
+[2.819628] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__builder.hpp\n'}
+[2.819785] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__traits.hpp\n'}
+[2.819957] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/num.hpp\n'}
+[2.820036] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/sphere.hpp\n'}
+[2.820107] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[2.820177] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action\n'}
+[2.820256] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail\n'}
+[2.820327] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.820398] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.820468] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.820539] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/dds_fastrtps\n'}
+[2.820623] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[2.820709] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[2.820781] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/dds_fastrtps\n'}
+[2.820869] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.820945] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[2.821019] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[2.821093] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.821167] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.821249] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/dds_fastrtps\n'}
+[2.821323] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.821396] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.821471] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[2.821544] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action\n'}
+[2.821627] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail\n'}
+[2.821701] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[2.821780] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__rosidl_typesupport_introspection_c.h\n'}
+[2.821856] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__rosidl_typesupport_introspection_c.h\n'}
+[2.821930] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__type_support.c\n'}
+[2.822006] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__type_support.c\n'}
+[2.822081] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__type_support.c\n'}
+[2.822155] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[2.822228] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[2.822302] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_introspection_c.h\n'}
+[2.822377] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.c\n'}
+[2.822452] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[2.822525] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.822604] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[2.822680] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[2.822756] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.c\n'}
+[2.822830] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[2.822922] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.c\n'}
+[2.822996] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.823063] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_c.so\n'}
+[2.823131] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces\n'}
+[2.823200] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action\n'}
+[2.823321] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail\n'}
+[2.823394] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.823463] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/count_down__type_support.cpp\n'}
+[2.823531] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__type_support.cpp\n'}
+[2.823599] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.823666] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/countdown__type_support.cpp\n'}
+[2.823733] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.823800] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv\n'}
+[2.823889] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail\n'}
+[2.823965] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.824043] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.cpp\n'}
+[2.824121] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg\n'}
+[2.824217] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail\n'}
+[2.824298] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.cpp\n'}
+[2.824375] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.824454] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[2.824533] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.824612] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.824692] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.824770] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/pythonpath.sh\n'}
+[2.824856] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/environment/pythonpath.dsv\n'}
+[2.824945] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.825011] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.825082] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.825149] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.825215] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.825280] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces\n'}
+[2.825345] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action\n'}
+[2.825413] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action/_fibonacci.py\n'}
+[2.825479] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action/_count_down_s.c\n'}
+[2.825545] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action/__init__.py\n'}
+[2.825610] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action/_countdown.py\n'}
+[2.825676] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action/_count_down.py\n'}
+[2.825741] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action/_countdown_s.c\n'}
+[2.825806] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action/_fibonacci_s.c\n'}
+[2.825891] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.826019] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv\n'}
+[2.826164] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/__init__.py\n'}
+[2.826309] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/_add_tree_ints.py\n'}
+[2.826458] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/_add_tree_ints_s.c\n'}
+[2.826713] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg\n'}
+[2.826814] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_num.py\n'}
+[2.826923] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_sphere.py\n'}
+[2.827017] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_sphere_s.c\n'}
+[2.827142] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_num_s.c\n'}
+[2.827229] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/__init__.py\n'}
+[2.827326] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/__init__.py\n'}
+[2.827408] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.827494] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.827584] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.827672] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.827754] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.827835] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/libros_interfaces__rosidl_generator_py.so\n'}
+[2.859364] (ros_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces'...\n"}
+[2.859520] (ros_interfaces) StdoutLine: {'line': b"Compiling '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/__init__.py'...\n"}
+[2.859601] (ros_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/action'...\n"}
+[2.859672] (ros_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg'...\n"}
+[2.859741] (ros_interfaces) StdoutLine: {'line': b"Listing '/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv'...\n"}
+[2.863457] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.863801] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.864181] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.864587] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_py.so\n'}
+[2.864835] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Num.idl\n'}
+[2.865054] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Sphere.idl\n'}
+[2.865255] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts.idl\n'}
+[2.865385] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/action/Fibonacci.idl\n'}
+[2.865556] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/action/Countdown.idl\n'}
+[2.865684] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Num.msg\n'}
+[2.865835] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/msg/Sphere.msg\n'}
+[2.866049] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts.srv\n'}
+[2.866259] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts_Request.msg\n'}
+[2.866438] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts_Response.msg\n'}
+[2.866699] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/action/Fibonacci.action\n'}
+[2.866822] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/action/Countdown.action\n'}
+[2.867020] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_interfaces\n'}
+[2.867115] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_interfaces\n'}
+[2.867203] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/ament_prefix_path.sh\n'}
+[2.867288] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.867383] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/environment/path.sh\n'}
+[2.867455] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/environment/path.dsv\n'}
+[2.867526] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.bash\n'}
+[2.867606] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.sh\n'}
+[2.867678] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.zsh\n'}
+[2.867748] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/local_setup.dsv\n'}
+[2.867830] (ros_interfaces) StdoutLine: {'line': b'-- Installing: /workspace/install/ros_interfaces/share/ros_interfaces/package.dsv\n'}
+[2.867909] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ament_index/resource_index/packages/ros_interfaces\n'}
+[2.868033] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.868208] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.868332] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.868478] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.868603] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.868735] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.868855] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.868937] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.869019] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.869100] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.869181] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.869262] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.869343] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.869423] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.869504] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.869584] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.869664] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.869748] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.869829] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.869936] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.870010] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.870079] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.870148] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.870217] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.870285] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfacesConfig.cmake\n'}
+[2.870354] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfacesConfig-version.cmake\n'}
+[2.870422] (ros_interfaces) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/ros_interfaces/share/ros_interfaces/package.xml\n'}
+[2.871927] (ros_interfaces) CommandEnded: {'returncode': 0}
+[2.904826] (-) TimerEvent: {}
+[3.005177] (-) TimerEvent: {}
+[3.093172] (ros_interfaces) JobEnded: {'identifier': 'ros_interfaces', 'rc': 0}
+[3.093888] (-) EventReactorShutdown: {}

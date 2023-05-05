@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_tutorials_interfaces/action/Countdown.action
+// generated code does not contain a copyright notice
+
+
+module action_tutorials_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Action definition file for the Countdown action server")
+    struct Countdown_Goal {
+      @verbatim (language="comment", text=
+        "Duration of countdown in seconds")
+      int64 dur;
+    };
+    struct Countdown_Result {
+      @verbatim (language="comment", text=
+        "Time elapsed during countdown in seconds")
+      int64 time_elapsed;
+    };
+    struct Countdown_Feedback {
+      @verbatim (language="comment", text=
+        "Time remaining during countdown in seconds")
+      int64 time_remaining;
+    };
+  };
+};

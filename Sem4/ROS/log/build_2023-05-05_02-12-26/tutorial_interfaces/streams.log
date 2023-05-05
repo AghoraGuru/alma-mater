@@ -1,0 +1,5 @@
+[0.032s] Invoking command in '/workspace/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/pubsub:/workspace/install/srvcli:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /workspace/build/tutorial_interfaces -- -j12 -l12
+[0.261s] [0mCMake Error: The source directory "/workspace/tutorial_interfaces" does not exist.
+[0.261s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.262s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.265s] Invoked command in '/workspace/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/pubsub:/workspace/install/srvcli:/workspace/install/my_py_pkg:/workspace/install/my_package:/opt/ros/humble /usr/bin/cmake --build /workspace/build/tutorial_interfaces -- -j12 -l12

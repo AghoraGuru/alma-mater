@@ -1,0 +1,24 @@
+[0.500s] Invoking command in '/workspace/src/pubsub': PYTHONPATH=/workspace/build/pubsub/prefix_override:/workspace/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /workspace/build/pubsub/build install --record /workspace/build/pubsub/install.log --single-version-externally-managed
+[0.705s] running egg_info
+[0.706s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[0.706s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[0.706s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[0.706s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[0.706s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[0.708s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.709s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[0.709s] running build
+[0.709s] running build_py
+[0.710s] running install
+[0.710s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.710s]   warnings.warn(
+[0.710s] running install_lib
+[0.712s] running install_data
+[0.712s] running install_egg_info
+[0.713s] removing '/workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.713s] Copying ../../build/pubsub/pubsub.egg-info to /workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[0.714s] running install_scripts
+[0.737s] Installing listener script to /workspace/install/pubsub/lib/pubsub
+[0.737s] Installing talker script to /workspace/install/pubsub/lib/pubsub
+[0.737s] writing list of installed files to '/workspace/build/pubsub/install.log'
+[0.768s] Invoked command in '/workspace/src/pubsub' returned '0': PYTHONPATH=/workspace/build/pubsub/prefix_override:/workspace/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /workspace/build/pubsub/build install --record /workspace/build/pubsub/install.log --single-version-externally-managed

@@ -1,0 +1,23 @@
+[1.161s] Invoking command in '/workspace/src/pubsub': PYTHONPATH=/workspace/build/pubsub/prefix_override:/workspace/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /workspace/build/pubsub/build install --record /workspace/build/pubsub/install.log --single-version-externally-managed
+[1.435s] running egg_info
+[1.436s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[1.437s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[1.437s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[1.438s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[1.438s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[1.440s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.441s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.441s] running build
+[1.441s] running build_py
+[1.441s] running install
+[1.441s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.441s]   warnings.warn(
+[1.441s] running install_lib
+[1.443s] running install_data
+[1.443s] running install_egg_info
+[1.445s] removing '/workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.446s] Copying ../../build/pubsub/pubsub.egg-info to /workspace/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[1.448s] running install_scripts
+[1.476s] Installing listener script to /workspace/install/pubsub/lib/pubsub
+[1.476s] Installing talker script to /workspace/install/pubsub/lib/pubsub
+[1.477s] writing list of installed files to '/workspace/build/pubsub/install.log'
