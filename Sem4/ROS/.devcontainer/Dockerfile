@@ -12,3 +12,4 @@ RUN rosdep update
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 
+RUN curl -sSL http://get.gazebosim.org | sh
