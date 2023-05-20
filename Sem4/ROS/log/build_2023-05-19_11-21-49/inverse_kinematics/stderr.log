@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/workspace/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics/serv.py", line 17
+    theta1 = # Perform your calculations here based on goal_msg.x, goal_msg.y, goal_msg.l1, goal_msg.l2
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

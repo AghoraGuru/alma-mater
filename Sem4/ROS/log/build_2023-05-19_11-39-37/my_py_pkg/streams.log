@@ -1,0 +1,27 @@
+[2.028s] Invoking command in '/workspace/src/my_py_pkg': PYTHONPATH=/workspace/build/my_py_pkg/prefix_override:/workspace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspace/build/my_py_pkg/build install --record /workspace/build/my_py_pkg/install.log --single-version-externally-managed
+[2.499s] running egg_info
+[2.501s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.501s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.501s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.501s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.502s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.505s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.506s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.506s] running build
+[2.506s] running build_py
+[2.507s] running install
+[2.507s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.508s]   warnings.warn(
+[2.508s] running install_lib
+[2.510s] running install_data
+[2.511s] running install_egg_info
+[2.513s] removing '/workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.514s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.515s] running install_scripts
+[2.555s] Installing client script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[2.555s] Installing num_count script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[2.555s] Installing num_gen script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[2.555s] Installing num_reset script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[2.556s] Installing server script to /workspace/install/my_py_pkg/lib/my_py_pkg
+[2.556s] writing list of installed files to '/workspace/build/my_py_pkg/install.log'
+[2.620s] Invoked command in '/workspace/src/my_py_pkg' returned '0': PYTHONPATH=/workspace/build/my_py_pkg/prefix_override:/workspace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /workspace/build/my_py_pkg/build install --record /workspace/build/my_py_pkg/install.log --single-version-externally-managed

@@ -4,3 +4,8 @@ ros_interfaces.egg-info/PKG-INFO
 ros_interfaces.egg-info/SOURCES.txt
 ros_interfaces.egg-info/dependency_links.txt
 ros_interfaces.egg-info/top_level.txt
+ros_interfaces/msg/__init__.py
+ros_interfaces/msg/_num.py
+ros_interfaces/msg/_sphere.py
+ros_interfaces/srv/__init__.py
+ros_interfaces/srv/_add_tree_ints.py

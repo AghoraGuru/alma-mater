@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ros2_mid_actions/action/IK.action
+// generated code does not contain a copyright notice
+
+
+module ros2_mid_actions {
+  module action {
+    struct IK_Goal {
+      double x;
+
+      double y;
+
+      double l1;
+
+      double l2;
+    };
+    struct IK_Result {
+      double theta1;
+
+      double theta2;
+    };
+    struct IK_Feedback {
+      double feedback1;
+
+      double feedback2;
+    };
+  };
+};

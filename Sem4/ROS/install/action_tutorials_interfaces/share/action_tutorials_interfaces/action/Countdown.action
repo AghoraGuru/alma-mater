@@ -1,9 +1,0 @@
-# Action definition file for the Countdown action server
-
-int64 dur  # Duration of countdown in seconds
-
----
-int64 time_elapsed  # Time elapsed during countdown in seconds
-
----
-int64 time_remaining  # Time remaining during countdown in seconds

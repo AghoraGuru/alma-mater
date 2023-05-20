@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000670] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000775] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.002304] (-) JobUnselected: {'identifier': 'ros2_mid_actions'}
+[0.002550] (-) JobUnselected: {'identifier': 'ros_interfaces'}
+[0.002653] (-) JobUnselected: {'identifier': 'srvcli'}
+[0.002712] (inverse_kinematics) JobQueued: {'identifier': 'inverse_kinematics', 'dependencies': OrderedDict()}
+[0.002813] (inverse_kinematics) JobStarted: {'identifier': 'inverse_kinematics'}
+[0.099967] (-) TimerEvent: {}
+[0.200261] (-) TimerEvent: {}
+[0.300602] (-) TimerEvent: {}
+[0.400943] (-) TimerEvent: {}
+[0.501310] (-) TimerEvent: {}
+[0.601632] (-) TimerEvent: {}
+[0.702009] (-) TimerEvent: {}
+[0.715161] (inverse_kinematics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/inverse_kinematics', 'build', '--build-base', '/workspace/build/inverse_kinematics/build', 'install', '--record', '/workspace/build/inverse_kinematics/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/inverse_kinematics', 'env': {'HOSTNAME': 'kalyan-linux', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspace/install/ros_interfaces/lib:/workspace/install/ros2_mid_actions/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/src', 'TERM_PROGRAM_VERSION': '1.77.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-085326dd-b4b3-4674-bc12-58c26fa82ab1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f2ef747b-b55d-4655-9f4a-26283060f20a.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/.X11-unix/X6","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-29012cff2a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/workspace/install/inverse_kinematics:/workspace/install/srvcli:/workspace/install/ros_interfaces:/workspace/install/ros2_mid_actions:/workspace/install/ros2_action:/workspace/install/pubsub:/workspace/install/my_py_pkg:/workspace/install/my_package:/workspace/install/inv_kine:/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X6', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/build/inverse_kinematics', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/inverse_kinematics/prefix_override:/workspace/install/inverse_kinematics/lib/python3.10/site-packages:/workspace/install/inverse_kinematics/lib/python3.10/site-packages:/workspace/install/srvcli/lib/python3.10/site-packages:/workspace/install/ros_interfaces/local/lib/python3.10/dist-packages:/workspace/install/ros2_mid_actions/local/lib/python3.10/dist-packages:/workspace/install/pubsub/lib/python3.10/site-packages:/workspace/install/my_py_pkg/lib/python3.10/site-packages:/workspace/install/my_package/lib/python3.10/site-packages:/workspace/install/inv_kine/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/ros_interfaces:/workspace/install/ros2_mid_actions:/workspace/install/ros2_action'}, 'shell': False}
+[0.802216] (-) TimerEvent: {}
+[0.902686] (-) TimerEvent: {}
+[0.982149] (inverse_kinematics) StdoutLine: {'line': b'running egg_info\n'}
+[0.983111] (inverse_kinematics) StdoutLine: {'line': b'writing ../../build/inverse_kinematics/inverse_kinematics.egg-info/PKG-INFO\n'}
+[0.983429] (inverse_kinematics) StdoutLine: {'line': b'writing dependency_links to ../../build/inverse_kinematics/inverse_kinematics.egg-info/dependency_links.txt\n'}
+[0.983710] (inverse_kinematics) StdoutLine: {'line': b'writing entry points to ../../build/inverse_kinematics/inverse_kinematics.egg-info/entry_points.txt\n'}
+[0.984069] (inverse_kinematics) StdoutLine: {'line': b'writing requirements to ../../build/inverse_kinematics/inverse_kinematics.egg-info/requires.txt\n'}
+[0.984364] (inverse_kinematics) StdoutLine: {'line': b'writing top-level names to ../../build/inverse_kinematics/inverse_kinematics.egg-info/top_level.txt\n'}
+[0.986144] (inverse_kinematics) StdoutLine: {'line': b"reading manifest file '../../build/inverse_kinematics/inverse_kinematics.egg-info/SOURCES.txt'\n"}
+[0.987129] (inverse_kinematics) StdoutLine: {'line': b"writing manifest file '../../build/inverse_kinematics/inverse_kinematics.egg-info/SOURCES.txt'\n"}
+[0.987446] (inverse_kinematics) StdoutLine: {'line': b'running build\n'}
+[0.987704] (inverse_kinematics) StdoutLine: {'line': b'running build_py\n'}
+[0.987800] (inverse_kinematics) StdoutLine: {'line': b'copying inverse_kinematics/client.py -> /workspace/build/inverse_kinematics/build/lib/inverse_kinematics\n'}
+[0.988016] (inverse_kinematics) StdoutLine: {'line': b'running install\n'}
+[0.988292] (inverse_kinematics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.988457] (inverse_kinematics) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.988726] (inverse_kinematics) StdoutLine: {'line': b'running install_lib\n'}
+[0.989732] (inverse_kinematics) StdoutLine: {'line': b'copying /workspace/build/inverse_kinematics/build/lib/inverse_kinematics/client.py -> /workspace/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics\n'}
+[0.990418] (inverse_kinematics) StdoutLine: {'line': b'byte-compiling /workspace/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics/client.py to client.cpython-310.pyc\n'}
+[0.991158] (inverse_kinematics) StdoutLine: {'line': b'running install_data\n'}
+[0.991761] (inverse_kinematics) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.993250] (inverse_kinematics) StdoutLine: {'line': b"removing '/workspace/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.993609] (inverse_kinematics) StdoutLine: {'line': b'Copying ../../build/inverse_kinematics/inverse_kinematics.egg-info to /workspace/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics-0.0.0-py3.10.egg-info\n'}
+[0.994561] (inverse_kinematics) StdoutLine: {'line': b'running install_scripts\n'}
+[1.002793] (-) TimerEvent: {}
+[1.017227] (inverse_kinematics) StdoutLine: {'line': b'Installing client script to /workspace/install/inverse_kinematics/lib/inverse_kinematics\n'}
+[1.017578] (inverse_kinematics) StdoutLine: {'line': b'Installing server script to /workspace/install/inverse_kinematics/lib/inverse_kinematics\n'}
+[1.017933] (inverse_kinematics) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/inverse_kinematics/install.log'\n"}
+[1.045755] (inverse_kinematics) CommandEnded: {'returncode': 0}
+[1.060365] (inverse_kinematics) JobEnded: {'identifier': 'inverse_kinematics', 'rc': 0}
+[1.061810] (-) EventReactorShutdown: {}

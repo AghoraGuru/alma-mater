@@ -1,0 +1,11 @@
+# TwoR.action
+float64 x
+float64 y
+float64 l1
+float64 l2
+---
+float64 theta1
+float64 theta2
+---
+float64 feedback1
+float64 feedback2

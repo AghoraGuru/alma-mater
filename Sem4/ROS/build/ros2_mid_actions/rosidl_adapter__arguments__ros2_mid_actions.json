@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_mid_actions",
+  "non_idl_tuples": [
+    "/workspace/src/ros2_mid_actions:action/InverseKinematics.action"
+  ]
+}
