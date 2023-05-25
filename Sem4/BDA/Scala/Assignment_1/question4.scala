@@ -1,5 +1,5 @@
 //first three smallest elements in the array
-val arr = Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-for (i <- 0 until 3) {
-  println(arr(i))
-}
+val arr = Array(14, 2, 13, 4, 15, 26, 7, 8, 9, 10)
+val sorted = arr.sortWith(_ < _)
+val smallest = sorted.take(3)
+println(smallest.mkString(" "))
