@@ -1,6 +1,6 @@
 {
   "name": "osrf/ros:humble-desktop-full",
-  "dockerFile": "Dockerfile",
+  "dockerFile": "/home/kalyan/gitrepo/alma-mater/Sem4/ROS/.devcontainer/Dockerfile",
   "runArgs": [
     "--privileged",
     "--network=host",
