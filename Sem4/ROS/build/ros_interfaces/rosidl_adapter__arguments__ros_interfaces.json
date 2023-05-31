@@ -1,8 +1,0 @@
-{
-  "package_name": "ros_interfaces",
-  "non_idl_tuples": [
-    "/workspace/src/ros_interfaces:msg/Num.msg",
-    "/workspace/src/ros_interfaces:msg/Sphere.msg",
-    "/workspace/src/ros_interfaces:srv/AddTreeInts.srv"
-  ]
-}

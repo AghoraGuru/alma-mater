@@ -1,8 +1,0 @@
-msg/Num.idl
-msg/Num.msg
-msg/Sphere.idl
-msg/Sphere.msg
-srv/AddTreeInts.idl
-srv/AddTreeInts.srv
-srv/AddTreeInts_Request.msg
-srv/AddTreeInts_Response.msg

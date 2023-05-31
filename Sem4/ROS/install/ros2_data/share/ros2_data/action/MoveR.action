@@ -1,7 +1,0 @@
-string joint
-float64 value
-float64 speed
----
-string result
----
-string feedback
