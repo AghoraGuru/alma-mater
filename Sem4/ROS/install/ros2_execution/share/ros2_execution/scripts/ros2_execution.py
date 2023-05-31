@@ -106,7 +106,6 @@ class MoveJclient(Node):
     def feedback_callback(self, feedback_msg):
         # 1. Assign FEEDBACK variable:
         feedback = feedback_msg.feedback
-        print("HIIII")
         # NO FEEDBACK NEEDED IN MoveJ ACTION CALL.
 
 # 1.1 - MoveJs:
@@ -137,14 +136,11 @@ class MoveJsclient(Node):
             return
         self.get_logger().info('Goal accepted :)')
         self._get_result_future = goal_handle.get_result_async()
-
         self._get_result_future.add_done_callback(self.get_result_callback)
-
+    
     def get_result_callback(self, future):
         global RES
         # 1. Assign RESULT variable:
-        print("heloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
-
         result = future.result().result
         RES = result.result
         # 2. Print RESULT:
