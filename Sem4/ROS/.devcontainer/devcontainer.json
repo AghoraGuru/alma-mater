@@ -1,0 +1,12 @@
+{
+  "name": "osrf/ros:humble-desktop-full",
+  "dockerFile": "/home/kalyan/gitrepo/alma-mater/Sem4/ROS/.devcontainer/Dockerfile",
+  "runArgs": [
+    "--privileged",
+    "--network=host",
+    "-e", "DISPLAY=${env:DISPLAY}"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/,type=bind",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "echo '. /workspace/install/setup.bash' >> ~/.bashrc"
+}
