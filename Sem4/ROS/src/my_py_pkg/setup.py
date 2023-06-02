@@ -24,7 +24,8 @@ setup(
             'client = my_py_pkg.add_two_ints_client:main',
             'num_gen = my_py_pkg.number_gen:main',
             'num_count = my_py_pkg.number_counter:main',
-            'num_reset = my_py_pkg.num_counter_reset:main'
+            'num_reset = my_py_pkg.num_counter_reset:main',
+            'ros2_move = my_py_pkg.endeffector:main'
         ],
     },
 )

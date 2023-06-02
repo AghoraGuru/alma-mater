@@ -1,0 +1,3 @@
+{'action': 'GripperClose'}
+{'action': 'GripperOpen'}
+{'action': 'Detach', 'value': {'object': 'box'}}
