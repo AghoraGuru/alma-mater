@@ -142,9 +142,6 @@
     </xacro:if>
     <!-- === SCHUNK EGP-64 GRIPPER === -->
 
-    <!-- ========== IR Reciver ========== -->
-    
-
   </xacro:macro>
 
 </robot>

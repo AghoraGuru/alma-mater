@@ -1,0 +1,5 @@
+camera:
+  image_width: 640
+  image_height: 480
+  field_of_view: 1.047
+  frame_rate: 30

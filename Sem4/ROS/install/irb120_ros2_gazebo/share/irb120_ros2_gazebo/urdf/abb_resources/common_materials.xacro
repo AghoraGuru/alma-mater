@@ -92,4 +92,12 @@
     </material>
   </xacro:macro>
 
+  <xacro:macro name="inertial_rectangle" params="mass length width height">
+  <inertial>
+    <mass value="${mass}" />
+    <inertia ixx="${mass*(width^2 + height^2)/12}" ixy="0.0" ixz="0.0" iyy="${mass*(length^2 + height^2)/12}" iyz="0.0" izz="${mass*(length^2 + width^2)/12}" />
+  </inertial>
+</xacro:macro>
+
+
 </robot>
