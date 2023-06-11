@@ -1,2 +1,1 @@
-source;share/irb120_ros2_gazebo/environment/ament_prefix_path.sh
-source;share/irb120_ros2_gazebo/environment/path.sh
+/workspace/build/irb120_ros2_gazebo/ament_cmake_environment_hooks/local_setup.dsv

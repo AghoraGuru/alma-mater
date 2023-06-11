@@ -1,2 +1,1 @@
-source;share/ur3_ros2_gazebo/environment/ament_prefix_path.sh
-source;share/ur3_ros2_gazebo/environment/path.sh
+/workspace/build/ur3_ros2_gazebo/ament_cmake_environment_hooks/local_setup.dsv

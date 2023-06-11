@@ -1,2 +1,1 @@
-from ros_interfaces.msg._num import Num  # noqa: F401
-from ros_interfaces.msg._sphere import Sphere  # noqa: F401
+/workspace/build/ros_interfaces/rosidl_generator_py/ros_interfaces/msg/__init__.py

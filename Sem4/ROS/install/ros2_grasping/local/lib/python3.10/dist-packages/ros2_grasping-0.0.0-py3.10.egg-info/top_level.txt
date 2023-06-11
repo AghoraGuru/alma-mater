@@ -1,1 +1,1 @@
-ros2_grasping
+/workspace/build/ros2_grasping/ament_cmake_python/ros2_grasping/ros2_grasping.egg-info/top_level.txt

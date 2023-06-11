@@ -1,1 +1,1 @@
-ros2_data
+/workspace/build/ros2_data/ament_cmake_python/ros2_data/ros2_data.egg-info/top_level.txt

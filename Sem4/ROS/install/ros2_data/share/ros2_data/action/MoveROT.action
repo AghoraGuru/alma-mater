@@ -1,8 +1,1 @@
-float64 roll
-float64 pitch
-float64 yaw
-float64 speed
----
-string result
----
-string feedback
+/workspace/src/ros2_RobotSimulation/ros2_data/action/MoveROT.action

@@ -1,2 +1,1 @@
-from ros2_data.msg._joint_pose import JointPose  # noqa: F401
-from ros2_data.msg._joint_pose_s import JointPoseS  # noqa: F401
+/workspace/build/ros2_data/rosidl_generator_py/ros2_data/msg/__init__.py

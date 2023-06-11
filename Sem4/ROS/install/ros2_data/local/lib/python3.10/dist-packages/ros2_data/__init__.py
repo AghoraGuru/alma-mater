@@ -1,0 +1,1 @@
+/workspace/build/ros2_data/rosidl_generator_py/ros2_data/__init__.py

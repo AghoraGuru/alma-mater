@@ -1,0 +1,1 @@
+/workspace/build/ros2_grasping/rosidl_generator_py/ros2_grasping/__init__.py

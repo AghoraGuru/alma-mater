@@ -1,4 +1,1 @@
-source;share/ros2_grasping/environment/ament_prefix_path.sh
-source;share/ros2_grasping/environment/library_path.sh
-source;share/ros2_grasping/environment/path.sh
-source;share/ros2_grasping/environment/pythonpath.sh
+/workspace/build/ros2_grasping/ament_cmake_environment_hooks/local_setup.dsv

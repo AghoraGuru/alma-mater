@@ -1,0 +1,1 @@
+/workspace/build/ros2_mid_actions/rosidl_generator_py/ros2_mid_actions/__init__.py
