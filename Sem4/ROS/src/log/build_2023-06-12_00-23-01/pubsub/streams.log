@@ -1,0 +1,43 @@
+[2.016s] Invoking command in '/workspace/src/pubsub': PYTHONPATH=/workspace/src/build/pubsub/prefix_override:/workspace/src/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pubsub build --build-base /workspace/src/build/pubsub/build install --record /workspace/src/build/pubsub/install.log --single-version-externally-managed
+[2.619s] running egg_info
+[2.621s] creating ../build/pubsub/pubsub.egg-info
+[2.621s] writing ../build/pubsub/pubsub.egg-info/PKG-INFO
+[2.621s] writing dependency_links to ../build/pubsub/pubsub.egg-info/dependency_links.txt
+[2.622s] writing entry points to ../build/pubsub/pubsub.egg-info/entry_points.txt
+[2.622s] writing requirements to ../build/pubsub/pubsub.egg-info/requires.txt
+[2.622s] writing top-level names to ../build/pubsub/pubsub.egg-info/top_level.txt
+[2.622s] writing manifest file '../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[2.627s] reading manifest file '../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[2.629s] writing manifest file '../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[2.629s] running build
+[2.629s] running build_py
+[2.630s] creating /workspace/src/build/pubsub/build
+[2.630s] creating /workspace/src/build/pubsub/build/lib
+[2.630s] creating /workspace/src/build/pubsub/build/lib/pubsub
+[2.630s] copying pubsub/sub_mem_fn.py -> /workspace/src/build/pubsub/build/lib/pubsub
+[2.630s] copying pubsub/pub_mem_fn.py -> /workspace/src/build/pubsub/build/lib/pubsub
+[2.631s] copying pubsub/__init__.py -> /workspace/src/build/pubsub/build/lib/pubsub
+[2.631s] running install
+[2.631s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.631s]   warnings.warn(
+[2.632s] running install_lib
+[2.633s] creating /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub
+[2.633s] copying /workspace/src/build/pubsub/build/lib/pubsub/sub_mem_fn.py -> /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub
+[2.634s] copying /workspace/src/build/pubsub/build/lib/pubsub/pub_mem_fn.py -> /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub
+[2.634s] copying /workspace/src/build/pubsub/build/lib/pubsub/__init__.py -> /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub
+[2.634s] byte-compiling /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub/sub_mem_fn.py to sub_mem_fn.cpython-310.pyc
+[2.635s] byte-compiling /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub/pub_mem_fn.py to pub_mem_fn.cpython-310.pyc
+[2.636s] byte-compiling /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub/__init__.py to __init__.cpython-310.pyc
+[2.636s] running install_data
+[2.637s] creating /workspace/src/install/pubsub/share/ament_index
+[2.637s] creating /workspace/src/install/pubsub/share/ament_index/resource_index
+[2.637s] creating /workspace/src/install/pubsub/share/ament_index/resource_index/packages
+[2.637s] copying resource/pubsub -> /workspace/src/install/pubsub/share/ament_index/resource_index/packages
+[2.638s] copying package.xml -> /workspace/src/install/pubsub/share/pubsub
+[2.638s] running install_egg_info
+[2.640s] Copying ../build/pubsub/pubsub.egg-info to /workspace/src/install/pubsub/lib/python3.10/site-packages/pubsub-0.0.0-py3.10.egg-info
+[2.641s] running install_scripts
+[2.682s] Installing listener script to /workspace/src/install/pubsub/lib/pubsub
+[2.682s] Installing talker script to /workspace/src/install/pubsub/lib/pubsub
+[2.683s] writing list of installed files to '/workspace/src/build/pubsub/install.log'
+[2.738s] Invoked command in '/workspace/src/pubsub' returned '0': PYTHONPATH=/workspace/src/build/pubsub/prefix_override:/workspace/src/install/pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pubsub build --build-base /workspace/src/build/pubsub/build install --record /workspace/src/build/pubsub/install.log --single-version-externally-managed

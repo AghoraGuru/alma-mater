@@ -1,1 +1,0 @@
-/workspace/build/ur3_ros2_moveit2/ament_cmake_core/ur3_ros2_moveit2Config-version.cmake

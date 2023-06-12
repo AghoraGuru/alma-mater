@@ -1,1 +1,0 @@
-/workspace/build/irb6640_ros2_gazebo/ament_cmake_core/irb6640_ros2_gazeboConfig.cmake

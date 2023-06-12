@@ -1,0 +1,56 @@
+[0.088s] Invoking command in '/workspace/src/build/panda_ros2_moveit2': AMENT_PREFIX_PATH=/workspace/src/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/src/install/ros2_data:/workspace/src/install/lakme_ros:/workspace/install/lakme_ros:/opt/ros/humble LD_LIBRARY_PATH=/workspace/src/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/src/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/src/ros2_RobotSimulation/PandaRobot/panda_ros2_moveit2 -DCMAKE_INSTALL_PREFIX=/workspace/src/install/panda_ros2_moveit2
+[0.225s] -- The C compiler identification is GNU 11.3.0
+[0.358s] -- The CXX compiler identification is GNU 11.3.0
+[0.374s] -- Detecting C compiler ABI info
+[0.596s] -- Detecting C compiler ABI info - done
+[0.630s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.632s] -- Detecting C compile features
+[0.634s] -- Detecting C compile features - done
+[0.643s] -- Detecting CXX compiler ABI info
+[0.828s] -- Detecting CXX compiler ABI info - done
+[0.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.850s] -- Detecting CXX compile features
+[0.853s] -- Detecting CXX compile features - done
+[0.862s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.301s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.533s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.750s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.755s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.757s] -- Added test 'lint_cmake' to check CMake code style
+[1.758s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.761s] -- Added test 'xmllint' to check XML markup files
+[1.764s] -- Configuring done
+[1.779s] -- Generating done
+[1.781s] -- Build files have been written to: /workspace/src/build/panda_ros2_moveit2
+[1.784s] Invoked command in '/workspace/src/build/panda_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/workspace/src/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/src/install/ros2_data:/workspace/src/install/lakme_ros:/workspace/install/lakme_ros:/opt/ros/humble LD_LIBRARY_PATH=/workspace/src/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/src/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/src/ros2_RobotSimulation/PandaRobot/panda_ros2_moveit2 -DCMAKE_INSTALL_PREFIX=/workspace/src/install/panda_ros2_moveit2
+[1.786s] Invoking command in '/workspace/src/build/panda_ros2_moveit2': AMENT_PREFIX_PATH=/workspace/src/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/src/install/ros2_data:/workspace/src/install/lakme_ros:/workspace/install/lakme_ros:/opt/ros/humble LD_LIBRARY_PATH=/workspace/src/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/src/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/src/build/panda_ros2_moveit2 -- -j12 -l12
+[1.856s] Invoked command in '/workspace/src/build/panda_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/workspace/src/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/src/install/ros2_data:/workspace/src/install/lakme_ros:/workspace/install/lakme_ros:/opt/ros/humble LD_LIBRARY_PATH=/workspace/src/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/src/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/src/build/panda_ros2_moveit2 -- -j12 -l12
+[1.920s] Invoking command in '/workspace/src/build/panda_ros2_moveit2': AMENT_PREFIX_PATH=/workspace/src/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/src/install/ros2_data:/workspace/src/install/lakme_ros:/workspace/install/lakme_ros:/opt/ros/humble LD_LIBRARY_PATH=/workspace/src/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/src/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/src/build/panda_ros2_moveit2
+[1.971s] -- Install configuration: ""
+[1.972s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config
+[1.973s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ompl_planning.yaml
+[1.974s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/ros2_controllers.yaml
+[1.974s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda.srdf
+[1.974s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda_controllers.yaml
+[1.974s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/chomp_planning.yaml
+[1.975s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/panda_moveit2.rviz
+[1.975s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/config/kinematics.yaml
+[1.975s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch
+[1.975s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda_interface.launch.py
+[1.976s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/launch/panda.launch.py
+[1.976s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/ament_index/resource_index/package_run_dependencies/panda_ros2_moveit2
+[1.977s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/ament_index/resource_index/parent_prefix_path/panda_ros2_moveit2
+[1.979s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/ament_prefix_path.sh
+[1.979s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/ament_prefix_path.dsv
+[1.980s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/path.sh
+[1.981s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/environment/path.dsv
+[1.981s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.bash
+[1.982s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.sh
+[1.985s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.zsh
+[1.985s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/local_setup.dsv
+[1.985s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/package.dsv
+[1.986s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/ament_index/resource_index/packages/panda_ros2_moveit2
+[1.987s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/cmake/panda_ros2_moveit2Config.cmake
+[1.987s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/cmake/panda_ros2_moveit2Config-version.cmake
+[1.995s] -- Installing: /workspace/src/install/panda_ros2_moveit2/share/panda_ros2_moveit2/package.xml
+[2.024s] Invoked command in '/workspace/src/build/panda_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/workspace/src/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/src/install/ros2_data:/workspace/src/install/lakme_ros:/workspace/install/lakme_ros:/opt/ros/humble LD_LIBRARY_PATH=/workspace/src/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/src/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/src/build/panda_ros2_moveit2

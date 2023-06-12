@@ -1,1 +1,0 @@
-/workspace/build/ros2_data/rosidl_generator_cpp/ros2_data/action/detail/move_xyz__builder.hpp

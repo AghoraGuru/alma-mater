@@ -1,0 +1,6 @@
+Invoking command in '/workspace/src/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_grasping -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros2_grasping
+Invoked command in '/workspace/src/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_grasping -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros2_grasping
+Invoking command in '/workspace/src/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros2_grasping -- -j12 -l12
+Invoked command in '/workspace/src/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros2_grasping -- -j12 -l12
+Invoking command in '/workspace/src/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros2_grasping
+Invoked command in '/workspace/src/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros2_grasping

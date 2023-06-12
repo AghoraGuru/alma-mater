@@ -1,0 +1,75 @@
+[2.758s] Invoking command in '/workspace/src/my_py_pkg': PYTHONPATH=/workspace/src/build/my_py_pkg/prefix_override:/workspace/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /workspace/src/build/my_py_pkg/build install --record /workspace/src/build/my_py_pkg/install.log --single-version-externally-managed
+[3.338s] running egg_info
+[3.346s] creating ../build/my_py_pkg/my_py_pkg.egg-info
+[3.347s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.347s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.348s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.348s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.348s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.348s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.352s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.355s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.358s] running build
+[3.358s] running build_py
+[3.359s] creating /workspace/src/build/my_py_pkg/build
+[3.359s] creating /workspace/src/build/my_py_pkg/build/lib
+[3.359s] creating /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.359s] copying my_py_pkg/number_gen.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.360s] copying my_py_pkg/add_two_ints_client.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.360s] copying my_py_pkg/cam_subs.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.360s] copying my_py_pkg/inv_kinematics.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.360s] copying my_py_pkg/add_two_ints_server.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.362s] copying my_py_pkg/lidar_data.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.362s] copying my_py_pkg/irb120_simulation.launch.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.362s] copying my_py_pkg/__init__.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.363s] copying my_py_pkg/num_counter_reset.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.364s] copying my_py_pkg/number_counter.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.364s] copying my_py_pkg/processs_image.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.364s] copying my_py_pkg/endeffector.py -> /workspace/src/build/my_py_pkg/build/lib/my_py_pkg
+[3.364s] running install
+[3.365s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.365s]   warnings.warn(
+[3.365s] running install_lib
+[3.366s] creating /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.366s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/number_gen.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.367s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.368s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/cam_subs.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.368s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/inv_kinematics.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.374s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.381s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/lidar_data.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.382s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/irb120_simulation.launch.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.382s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.382s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/num_counter_reset.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.382s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.382s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/processs_image.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.382s] copying /workspace/src/build/my_py_pkg/build/lib/my_py_pkg/endeffector.py -> /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.383s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_gen.py to number_gen.cpython-310.pyc
+[3.383s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[3.383s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/cam_subs.py to cam_subs.cpython-310.pyc
+[3.383s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/inv_kinematics.py to inv_kinematics.cpython-310.pyc
+[3.383s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[3.384s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/lidar_data.py to lidar_data.cpython-310.pyc
+[3.384s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/irb120_simulation.launch.py to irb120_simulation.launch.cpython-310.pyc
+[3.385s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[3.386s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/num_counter_reset.py to num_counter_reset.cpython-310.pyc
+[3.386s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[3.386s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/processs_image.py to processs_image.cpython-310.pyc
+[3.387s] byte-compiling /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/endeffector.py to endeffector.cpython-310.pyc
+[3.394s] running install_data
+[3.394s] creating /workspace/src/install/my_py_pkg/share/ament_index
+[3.394s] creating /workspace/src/install/my_py_pkg/share/ament_index/resource_index
+[3.394s] creating /workspace/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.395s] copying resource/my_py_pkg -> /workspace/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.395s] copying package.xml -> /workspace/src/install/my_py_pkg/share/my_py_pkg
+[3.395s] running install_egg_info
+[3.396s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /workspace/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.399s] running install_scripts
+[3.448s] Installing client script to /workspace/src/install/my_py_pkg/lib/my_py_pkg
+[3.448s] Installing lidar script to /workspace/src/install/my_py_pkg/lib/my_py_pkg
+[3.448s] Installing num_count script to /workspace/src/install/my_py_pkg/lib/my_py_pkg
+[3.452s] Installing num_gen script to /workspace/src/install/my_py_pkg/lib/my_py_pkg
+[3.452s] Installing num_reset script to /workspace/src/install/my_py_pkg/lib/my_py_pkg
+[3.452s] Installing ros2_move script to /workspace/src/install/my_py_pkg/lib/my_py_pkg
+[3.452s] Installing server script to /workspace/src/install/my_py_pkg/lib/my_py_pkg
+[3.454s] writing list of installed files to '/workspace/src/build/my_py_pkg/install.log'
+[4.132s] Invoked command in '/workspace/src/my_py_pkg' returned '0': PYTHONPATH=/workspace/src/build/my_py_pkg/prefix_override:/workspace/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /workspace/src/build/my_py_pkg/build install --record /workspace/src/build/my_py_pkg/install.log --single-version-externally-managed

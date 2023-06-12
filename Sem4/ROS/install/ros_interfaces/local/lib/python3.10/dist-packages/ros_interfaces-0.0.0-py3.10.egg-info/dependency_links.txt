@@ -1,1 +1,0 @@
-/workspace/build/ros_interfaces/ament_cmake_python/ros_interfaces/ros_interfaces.egg-info/dependency_links.txt

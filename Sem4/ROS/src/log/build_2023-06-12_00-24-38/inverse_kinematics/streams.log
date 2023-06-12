@@ -1,0 +1,43 @@
+[2.814s] Invoking command in '/workspace/src/inverse_kinematics': PYTHONPATH=/workspace/src/build/inverse_kinematics/prefix_override:/workspace/src/install/inverse_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/inverse_kinematics build --build-base /workspace/src/build/inverse_kinematics/build install --record /workspace/src/build/inverse_kinematics/install.log --single-version-externally-managed
+[3.382s] running egg_info
+[3.382s] creating ../build/inverse_kinematics/inverse_kinematics.egg-info
+[3.382s] writing ../build/inverse_kinematics/inverse_kinematics.egg-info/PKG-INFO
+[3.383s] writing dependency_links to ../build/inverse_kinematics/inverse_kinematics.egg-info/dependency_links.txt
+[3.383s] writing entry points to ../build/inverse_kinematics/inverse_kinematics.egg-info/entry_points.txt
+[3.383s] writing requirements to ../build/inverse_kinematics/inverse_kinematics.egg-info/requires.txt
+[3.383s] writing top-level names to ../build/inverse_kinematics/inverse_kinematics.egg-info/top_level.txt
+[3.383s] writing manifest file '../build/inverse_kinematics/inverse_kinematics.egg-info/SOURCES.txt'
+[3.387s] reading manifest file '../build/inverse_kinematics/inverse_kinematics.egg-info/SOURCES.txt'
+[3.394s] writing manifest file '../build/inverse_kinematics/inverse_kinematics.egg-info/SOURCES.txt'
+[3.394s] running build
+[3.394s] running build_py
+[3.394s] creating /workspace/src/build/inverse_kinematics/build
+[3.394s] creating /workspace/src/build/inverse_kinematics/build/lib
+[3.395s] creating /workspace/src/build/inverse_kinematics/build/lib/inverse_kinematics
+[3.395s] copying inverse_kinematics/two_r_client.py -> /workspace/src/build/inverse_kinematics/build/lib/inverse_kinematics
+[3.395s] copying inverse_kinematics/__init__.py -> /workspace/src/build/inverse_kinematics/build/lib/inverse_kinematics
+[3.395s] copying inverse_kinematics/two_r_server.py -> /workspace/src/build/inverse_kinematics/build/lib/inverse_kinematics
+[3.396s] running install
+[3.396s] running install_lib
+[3.398s] creating /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics
+[3.399s] copying /workspace/src/build/inverse_kinematics/build/lib/inverse_kinematics/two_r_client.py -> /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics
+[3.402s] copying /workspace/src/build/inverse_kinematics/build/lib/inverse_kinematics/__init__.py -> /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics
+[3.402s] copying /workspace/src/build/inverse_kinematics/build/lib/inverse_kinematics/two_r_server.py -> /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics
+[3.402s] byte-compiling /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics/two_r_client.py to two_r_client.cpython-310.pyc
+[3.402s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.404s]   warnings.warn(
+[3.405s] byte-compiling /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics/__init__.py to __init__.cpython-310.pyc
+[3.405s] byte-compiling /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics/two_r_server.py to two_r_server.cpython-310.pyc
+[3.406s] running install_data
+[3.407s] creating /workspace/src/install/inverse_kinematics/share/ament_index
+[3.408s] creating /workspace/src/install/inverse_kinematics/share/ament_index/resource_index
+[3.408s] creating /workspace/src/install/inverse_kinematics/share/ament_index/resource_index/packages
+[3.409s] copying resource/inverse_kinematics -> /workspace/src/install/inverse_kinematics/share/ament_index/resource_index/packages
+[3.409s] copying package.xml -> /workspace/src/install/inverse_kinematics/share/inverse_kinematics
+[3.410s] running install_egg_info
+[3.410s] Copying ../build/inverse_kinematics/inverse_kinematics.egg-info to /workspace/src/install/inverse_kinematics/lib/python3.10/site-packages/inverse_kinematics-0.0.0-py3.10.egg-info
+[3.411s] running install_scripts
+[3.469s] Installing client script to /workspace/src/install/inverse_kinematics/lib/inverse_kinematics
+[3.469s] Installing server script to /workspace/src/install/inverse_kinematics/lib/inverse_kinematics
+[3.470s] writing list of installed files to '/workspace/src/build/inverse_kinematics/install.log'
+[3.617s] Invoked command in '/workspace/src/inverse_kinematics' returned '0': PYTHONPATH=/workspace/src/build/inverse_kinematics/prefix_override:/workspace/src/install/inverse_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/inverse_kinematics build --build-base /workspace/src/build/inverse_kinematics/build install --record /workspace/src/build/inverse_kinematics/install.log --single-version-externally-managed

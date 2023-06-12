@@ -1,1 +1,0 @@
-/workspace/build/ros_interfaces/rosidl_generator_c/ros_interfaces/msg/detail/sphere__functions.h

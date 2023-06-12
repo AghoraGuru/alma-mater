@@ -1,0 +1,238 @@
+[0.191s] Invoking command in '/workspace/src/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_grasping -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros2_grasping
+[0.316s] -- The C compiler identification is GNU 11.3.0
+[0.489s] -- The CXX compiler identification is GNU 11.3.0
+[0.506s] -- Detecting C compiler ABI info
+[0.668s] -- Detecting C compiler ABI info - done
+[0.689s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.690s] -- Detecting C compile features
+[0.690s] -- Detecting C compile features - done
+[0.697s] -- Detecting CXX compiler ABI info
+[0.826s] -- Detecting CXX compiler ABI info - done
+[0.841s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.841s] -- Detecting CXX compile features
+[0.842s] -- Detecting CXX compile features - done
+[0.850s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.197s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.496s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.711s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.749s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.730s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.607s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.612s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.645s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[3.646s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.646s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.646s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.678s] -- Found PythonExtra: .so  
+[3.742s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.746s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.747s] -- Added test 'lint_cmake' to check CMake code style
+[3.747s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.749s] -- Added test 'xmllint' to check XML markup files
+[3.756s] -- Configuring done
+[3.801s] -- Generating done
+[3.804s] -- Build files have been written to: /workspace/src/build/ros2_grasping
+[3.813s] Invoked command in '/workspace/src/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_grasping -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros2_grasping
+[3.815s] Invoking command in '/workspace/src/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros2_grasping -- -j12 -l12
+[3.863s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.878s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.899s] [  6%] Built target ament_cmake_python_copy_ros2_grasping
+[4.329s] running egg_info
+[4.330s] creating ros2_grasping.egg-info
+[4.331s] writing ros2_grasping.egg-info/PKG-INFO
+[4.331s] writing dependency_links to ros2_grasping.egg-info/dependency_links.txt
+[4.332s] writing top-level names to ros2_grasping.egg-info/top_level.txt
+[4.332s] writing manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[4.337s] reading manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[4.338s] writing manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[4.375s] [  6%] Built target ament_cmake_python_build_ros2_grasping_egg
+[4.600s] [  6%] Built target ros2_grasping__cpp
+[4.613s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.613s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.616s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.775s] [ 19%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_generator_c.dir/rosidl_generator_c/ros2_grasping/action/detail/attacher__functions.c.o[0m
+[5.128s] [ 22%] [32m[1mLinking C shared library libros2_grasping__rosidl_generator_c.so[0m
+[5.256s] [ 22%] Built target ros2_grasping__rosidl_generator_c
+[5.306s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.323s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.338s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.498s] [ 35%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_grasping/action/attacher__type_support.cpp.o[0m
+[5.667s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_grasping/action/detail/attacher__type_support.cpp.o[0m
+[5.777s] [ 41%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_grasping/action/detail/dds_fastrtps/attacher__type_support.cpp.o[0m
+[6.306s] [ 45%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_grasping/action/attacher__type_support.cpp.o[0m
+[6.621s] [ 48%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_c.so[0m
+[6.758s] [ 51%] Built target ros2_grasping__rosidl_typesupport_c
+[6.760s] [ 51%] [32mBuilding CXX object CMakeFiles/ros2_grasping__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_grasping/action/detail/attacher__type_support_c.cpp.o[0m
+[6.949s] [ 54%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_grasping/action/detail/attacher__type_support.c.o[0m
+[7.233s] [ 58%] [32m[1mLinking C shared library libros2_grasping__rosidl_typesupport_introspection_c.so[0m
+[7.247s] [ 61%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_cpp.so[0m
+[7.463s] [ 61%] Built target ros2_grasping__rosidl_typesupport_introspection_c
+[7.488s] [ 61%] Built target ros2_grasping__rosidl_typesupport_cpp
+[7.583s] [ 64%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_introspection_cpp.so[0m
+[8.043s] [ 64%] Built target ros2_grasping__rosidl_typesupport_introspection_cpp
+[8.069s] [ 67%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.227s] [ 70%] [32m[1mLinking CXX shared library libros2_grasping__rosidl_typesupport_fastrtps_c.so[0m
+[8.444s] [ 70%] Built target ros2_grasping__rosidl_typesupport_fastrtps_cpp
+[8.620s] [ 70%] Built target ros2_grasping__rosidl_typesupport_fastrtps_c
+[8.668s] [ 70%] Built target ros2_grasping
+[8.718s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.234s] [ 74%] Built target ros2_grasping__py
+[10.269s] [ 77%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_generator_py.dir/rosidl_generator_py/ros2_grasping/action/_attacher_s.c.o[0m
+[10.632s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/libros2_grasping__rosidl_generator_py.so[0m
+[10.727s] [ 80%] Built target ros2_grasping__rosidl_generator_py
+[10.793s] [ 83%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_c.c.o[0m
+[10.798s] [ 87%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.809s] [ 90%] [32mBuilding C object CMakeFiles/ros2_grasping__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.109s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.121s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.191s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.202s] [100%] Built target ros2_grasping__rosidl_typesupport_introspection_c__pyext
+[11.207s] [100%] Built target ros2_grasping__rosidl_typesupport_fastrtps_c__pyext
+[11.290s] [100%] Built target ros2_grasping__rosidl_typesupport_c__pyext
+[11.320s] Invoked command in '/workspace/src/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros2_grasping -- -j12 -l12
+[11.454s] Invoking command in '/workspace/src/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros2_grasping
+[11.474s] -- Install configuration: ""
+[11.474s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/urdf
+[11.474s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/urdf/box.urdf
+[11.475s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/urdf/pizza.urdf
+[11.481s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/urdf/team11_bot.urdf
+[11.481s] -- Installing: /workspace/src/install/ros2_grasping/share/ament_index/resource_index/rosidl_interfaces/ros2_grasping
+[11.482s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[11.484s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[11.485s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[11.485s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__struct.h
+[11.485s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.h
+[11.486s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__functions.h
+[11.486s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__functions.c
+[11.487s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/attacher.h
+[11.487s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[11.487s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_generator_c__visibility_control.h
+[11.488s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/library_path.sh
+[11.488s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/library_path.dsv
+[11.488s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_c.so
+[11.488s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_c.so" to ""
+[11.488s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[11.488s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[11.489s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[11.489s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_fastrtps_c.h
+[11.489s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[11.490s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.490s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_c.so
+[11.490s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_c.so" to ""
+[11.490s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[11.490s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[11.491s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[11.491s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_introspection_c.h
+[11.491s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.c
+[11.491s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[11.491s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.491s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_c.so
+[11.491s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_c.so" to ""
+[11.492s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_c.so
+[11.492s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_c.so" to ""
+[11.492s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[11.493s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[11.493s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[11.493s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__builder.hpp
+[11.493s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__struct.hpp
+[11.493s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__traits.hpp
+[11.493s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/attacher.hpp
+[11.494s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[11.494s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[11.494s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[11.494s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_fastrtps_cpp.hpp
+[11.494s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/dds_fastrtps
+[11.495s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[11.495s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.495s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_cpp.so
+[11.496s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.497s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[11.497s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[11.498s] -- Up-to-date: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[11.499s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_introspection_cpp.hpp
+[11.500s] -- Installing: /workspace/src/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.cpp
+[11.501s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_cpp.so
+[11.502s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_cpp.so" to ""
+[11.502s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_cpp.so
+[11.502s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_cpp.so" to ""
+[11.502s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/pythonpath.sh
+[11.503s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/pythonpath.dsv
+[11.504s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info
+[11.505s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.506s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.506s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/top_level.txt
+[11.506s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/PKG-INFO
+[11.506s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping
+[11.525s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action
+[11.525s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher_s.c
+[11.526s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher.py
+[11.526s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/__init__.py
+[11.526s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.526s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.526s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_c.c
+[11.527s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_introspection_c.c
+[11.527s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/libros2_grasping__rosidl_generator_py.so
+[11.528s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.528s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.528s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/__init__.py
+[11.599s] Listing '/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping'...
+[11.599s] Compiling '/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/__init__.py'...
+[11.599s] Listing '/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action'...
+[11.599s] Compiling '/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/__init__.py'...
+[11.600s] Compiling '/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher.py'...
+[11.609s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.610s] -- Set runtime path of "/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.611s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.611s] -- Set runtime path of "/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.612s] -- Installing: /workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.613s] -- Set runtime path of "/workspace/src/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.613s] -- Installing: /workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_py.so
+[11.613s] -- Set runtime path of "/workspace/src/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_py.so" to ""
+[11.613s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/action/Attacher.idl
+[11.614s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/action/Attacher.action
+[11.614s] -- Installing: /workspace/src/install/ros2_grasping/lib/ros2_grasping/attacher_action.py
+[11.614s] -- Installing: /workspace/src/install/ros2_grasping/lib/ros2_grasping/spawn_object.py
+[11.614s] -- Installing: /workspace/src/install/ros2_grasping/share/ament_index/resource_index/package_run_dependencies/ros2_grasping
+[11.615s] -- Installing: /workspace/src/install/ros2_grasping/share/ament_index/resource_index/parent_prefix_path/ros2_grasping
+[11.615s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/ament_prefix_path.sh
+[11.615s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/ament_prefix_path.dsv
+[11.615s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/path.sh
+[11.616s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/environment/path.dsv
+[11.616s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/local_setup.bash
+[11.616s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/local_setup.sh
+[11.617s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/local_setup.zsh
+[11.617s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/local_setup.dsv
+[11.617s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/package.dsv
+[11.618s] -- Installing: /workspace/src/install/ros2_grasping/share/ament_index/resource_index/packages/ros2_grasping
+[11.618s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cExport.cmake
+[11.618s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cExport-noconfig.cmake
+[11.618s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cExport.cmake
+[11.619s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.619s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cExport.cmake
+[11.619s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.619s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cExport.cmake
+[11.620s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cExport-noconfig.cmake
+[11.620s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cppExport.cmake
+[11.620s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.621s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.621s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cppExport.cmake
+[11.621s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.621s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cppExport.cmake
+[11.622s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cppExport-noconfig.cmake
+[11.622s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_pyExport.cmake
+[11.622s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_pyExport-noconfig.cmake
+[11.622s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake-extras.cmake
+[11.623s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.623s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.623s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+[11.623s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_targets-extras.cmake
+[11.624s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.624s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.624s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_graspingConfig.cmake
+[11.625s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/cmake/ros2_graspingConfig-version.cmake
+[11.625s] -- Installing: /workspace/src/install/ros2_grasping/share/ros2_grasping/package.xml
+[11.634s] Invoked command in '/workspace/src/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros2_grasping

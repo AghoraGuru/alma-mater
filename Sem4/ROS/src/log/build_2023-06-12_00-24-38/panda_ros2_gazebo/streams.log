@@ -1,0 +1,79 @@
+[1.029s] Invoking command in '/workspace/src/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/PandaRobot/panda_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/src/install/panda_ros2_gazebo
+[1.817s] -- The C compiler identification is GNU 11.3.0
+[1.818s] -- The CXX compiler identification is GNU 11.3.0
+[1.818s] -- Detecting C compiler ABI info
+[1.818s] -- Detecting C compiler ABI info - done
+[1.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.819s] -- Detecting C compile features
+[1.819s] -- Detecting C compile features - done
+[1.819s] -- Detecting CXX compiler ABI info
+[1.924s] -- Detecting CXX compiler ABI info - done
+[1.951s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.953s] -- Detecting CXX compile features
+[1.954s] -- Detecting CXX compile features - done
+[1.964s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.380s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.588s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.701s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.709s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.716s] -- Added test 'lint_cmake' to check CMake code style
+[2.716s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.716s] -- Added test 'xmllint' to check XML markup files
+[2.716s] -- Configuring done
+[2.721s] -- Generating done
+[2.723s] -- Build files have been written to: /workspace/src/build/panda_ros2_gazebo
+[2.751s] Invoked command in '/workspace/src/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/PandaRobot/panda_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/src/install/panda_ros2_gazebo
+[2.754s] Invoking command in '/workspace/src/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/panda_ros2_gazebo -- -j12 -l12
+[2.896s] Invoked command in '/workspace/src/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/panda_ros2_gazebo -- -j12 -l12
+[2.937s] Invoking command in '/workspace/src/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/panda_ros2_gazebo
+[2.973s] -- Install configuration: ""
+[2.974s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/config
+[2.974s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/config/panda_controller.yaml
+[2.976s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/launch
+[2.976s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/launch/panda_simulation.launch.py
+[2.977s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf
+[2.977s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_macro.urdf.xacro
+[2.978s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_transmission.xacro
+[2.979s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda_ros2control.xacro
+[2.979s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/urdf/panda.urdf.xacro
+[2.980s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/worlds
+[2.981s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/worlds/panda.world
+[2.981s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes
+[2.988s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision
+[2.988s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link7.stl
+[2.991s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link5.stl
+[2.991s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link1.stl
+[2.991s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link2.stl
+[2.991s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link3.stl
+[2.991s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link4.stl
+[2.992s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/finger.stl
+[2.992s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link6.stl
+[2.992s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/link0.stl
+[2.993s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/collision/hand.stl
+[2.993s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual
+[2.994s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/hand.dae
+[2.994s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link4.dae
+[2.995s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link0.dae
+[3.009s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/finger.dae
+[3.009s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link7.dae
+[3.010s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link2.dae
+[3.010s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link5.dae
+[3.012s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link1.dae
+[3.016s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link3.dae
+[3.017s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/meshes/visual/link6.dae
+[3.017s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/panda_ros2_gazebo
+[3.018s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/panda_ros2_gazebo
+[3.018s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/ament_prefix_path.sh
+[3.018s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/ament_prefix_path.dsv
+[3.019s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/path.sh
+[3.024s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/environment/path.dsv
+[3.030s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.bash
+[3.030s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.sh
+[3.031s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.zsh
+[3.031s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/local_setup.dsv
+[3.031s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/package.dsv
+[3.031s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/ament_index/resource_index/packages/panda_ros2_gazebo
+[3.032s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/cmake/panda_ros2_gazeboConfig.cmake
+[3.032s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/cmake/panda_ros2_gazeboConfig-version.cmake
+[3.032s] -- Installing: /workspace/src/install/panda_ros2_gazebo/share/panda_ros2_gazebo/package.xml
+[3.081s] Invoked command in '/workspace/src/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/panda_ros2_gazebo

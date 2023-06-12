@@ -1,1 +1,0 @@
-/workspace/build/ros2_grasping/rosidl_typesupport_fastrtps_c/ros2_grasping/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

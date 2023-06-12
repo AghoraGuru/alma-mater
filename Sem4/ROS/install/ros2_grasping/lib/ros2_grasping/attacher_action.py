@@ -1,1 +1,0 @@
-/workspace/src/ros2_RobotSimulation/ros2_grasping/scripts/attacher_action.py

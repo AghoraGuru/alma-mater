@@ -1,0 +1,303 @@
+[0.188s] Invoking command in '/workspace/src/build/ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros_interfaces
+[0.344s] -- The C compiler identification is GNU 11.3.0
+[0.454s] -- The CXX compiler identification is GNU 11.3.0
+[0.464s] -- Detecting C compiler ABI info
+[0.569s] -- Detecting C compiler ABI info - done
+[0.587s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.587s] -- Detecting C compile features
+[0.588s] -- Detecting C compile features - done
+[0.594s] -- Detecting CXX compiler ABI info
+[0.733s] -- Detecting CXX compiler ABI info - done
+[0.747s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.747s] -- Detecting CXX compile features
+[0.748s] -- Detecting CXX compile features - done
+[0.758s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.211s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.489s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.705s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.859s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.874s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.913s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.413s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.966s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.049s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.101s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[4.109s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.157s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.157s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.157s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.157s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.202s] -- Found PythonExtra: .so  
+[4.342s] -- Added test 'lint_cmake' to check CMake code style
+[4.344s] -- Added test 'xmllint' to check XML markup files
+[4.353s] -- Configuring done
+[4.437s] -- Generating done
+[4.442s] -- Build files have been written to: /workspace/src/build/ros_interfaces
+[4.461s] Invoked command in '/workspace/src/build/ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros_interfaces -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros_interfaces
+[4.461s] Invoking command in '/workspace/src/build/ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros_interfaces -- -j12 -l12
+[4.550s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.572s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.591s] [  4%] Built target ament_cmake_python_copy_ros_interfaces
+[5.124s] running egg_info
+[5.125s] creating ros_interfaces.egg-info
+[5.127s] writing ros_interfaces.egg-info/PKG-INFO
+[5.127s] writing dependency_links to ros_interfaces.egg-info/dependency_links.txt
+[5.127s] writing top-level names to ros_interfaces.egg-info/top_level.txt
+[5.127s] writing manifest file 'ros_interfaces.egg-info/SOURCES.txt'
+[5.132s] reading manifest file 'ros_interfaces.egg-info/SOURCES.txt'
+[5.135s] writing manifest file 'ros_interfaces.egg-info/SOURCES.txt'
+[5.284s] [  4%] Built target ament_cmake_python_build_ros_interfaces_egg
+[5.748s] [  4%] Built target ros_interfaces__cpp
+[5.749s] [  6%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_interfaces/msg/detail/sphere__functions.c.o[0m
+[5.764s] [  8%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_interfaces/msg/detail/num__functions.c.o[0m
+[5.802s] [ 10%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_interfaces/srv/detail/add_tree_ints__functions.c.o[0m
+[5.818s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.830s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.876s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.025s] [ 19%] [32m[1mLinking C shared library libros_interfaces__rosidl_generator_c.so[0m
+[6.221s] [ 19%] Built target ros_interfaces__rosidl_generator_c
+[6.325s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.331s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.336s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.067s] [ 27%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_interfaces/msg/num__type_support.cpp.o[0m
+[7.084s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_interfaces/msg/sphere__type_support.cpp.o[0m
+[7.116s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_interfaces/srv/add_tree_ints__type_support.cpp.o[0m
+[7.283s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[7.288s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_interfaces/srv/add_tree_ints__type_support.cpp.o[0m
+[7.300s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[7.300s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_interfaces/srv/detail/dds_fastrtps/add_tree_ints__type_support.cpp.o[0m
+[7.303s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_interfaces/msg/num__type_support.cpp.o[0m
+[7.309s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_interfaces/msg/sphere__type_support.cpp.o[0m
+[7.338s] [ 46%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_interfaces/msg/detail/num__type_support.cpp.o[0m
+[7.498s] [ 48%] [32m[1mLinking CXX shared library libros_interfaces__rosidl_typesupport_c.so[0m
+[7.504s] [ 51%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[7.509s] [ 53%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_interfaces/srv/detail/add_tree_ints__type_support.cpp.o[0m
+[7.633s] [ 55%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_interfaces/msg/detail/num__type_support.c.o[0m
+[7.759s] [ 55%] Built target ros_interfaces__rosidl_typesupport_c
+[7.827s] [ 57%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_interfaces/msg/detail/sphere__type_support.c.o[0m
+[7.844s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[7.878s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[7.987s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_interfaces/srv/detail/add_tree_ints__type_support_c.cpp.o[0m
+[8.037s] [ 65%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_interfaces/srv/detail/add_tree_ints__type_support.c.o[0m
+[8.109s] [ 68%] [32m[1mLinking CXX shared library libros_interfaces__rosidl_typesupport_cpp.so[0m
+[8.275s] [ 70%] [32m[1mLinking C shared library libros_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.357s] [ 70%] Built target ros_interfaces__rosidl_typesupport_cpp
+[8.461s] [ 70%] Built target ros_interfaces__rosidl_typesupport_introspection_c
+[8.815s] [ 72%] [32m[1mLinking CXX shared library libros_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.818s] [ 74%] [32m[1mLinking CXX shared library libros_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.856s] [ 76%] [32m[1mLinking CXX shared library libros_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.016s] [ 76%] Built target ros_interfaces__rosidl_typesupport_introspection_cpp
+[9.049s] [ 76%] Built target ros_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.147s] [ 76%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c
+[9.199s] [ 76%] Built target ros_interfaces
+[9.242s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.107s] [ 78%] Built target ros_interfaces__py
+[10.133s] [ 80%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_interfaces/srv/_add_tree_ints_s.c.o[0m
+[10.137s] [ 82%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_interfaces/msg/_num_s.c.o[0m
+[10.140s] [ 85%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_interfaces/msg/_sphere_s.c.o[0m
+[10.378s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros_interfaces/libros_interfaces__rosidl_generator_py.so[0m
+[10.452s] [ 87%] Built target ros_interfaces__rosidl_generator_py
+[10.495s] [ 91%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.495s] [ 91%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.498s] [ 93%] [32mBuilding C object CMakeFiles/ros_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.761s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.777s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.802s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.870s] [100%] Built target ros_interfaces__rosidl_typesupport_c__pyext
+[10.894s] [100%] Built target ros_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.915s] [100%] Built target ros_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.939s] Invoked command in '/workspace/src/build/ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros_interfaces -- -j12 -l12
+[11.148s] Invoking command in '/workspace/src/build/ros_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros_interfaces
+[11.162s] -- Install configuration: ""
+[11.163s] -- Installing: /workspace/src/install/ros_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros_interfaces
+[11.164s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces
+[11.165s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv
+[11.166s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/add_tree_ints.h
+[11.167s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail
+[11.169s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__functions.c
+[11.169s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__functions.h
+[11.172s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.h
+[11.173s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__struct.h
+[11.173s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg
+[11.173s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/num.h
+[11.173s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail
+[11.173s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__struct.h
+[11.174s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__functions.h
+[11.174s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__functions.c
+[11.174s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__functions.h
+[11.174s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__struct.h
+[11.175s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.h
+[11.175s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.h
+[11.175s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__functions.c
+[11.175s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.175s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/sphere.h
+[11.175s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/library_path.sh
+[11.176s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/library_path.dsv
+[11.176s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_c.so
+[11.176s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_c.so" to ""
+[11.176s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces
+[11.177s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv
+[11.177s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail
+[11.183s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_fastrtps_c.h
+[11.183s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg
+[11.183s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail
+[11.183s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[11.183s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[11.183s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.184s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.184s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.184s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces
+[11.184s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv
+[11.184s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/add_tree_ints.hpp
+[11.185s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail
+[11.185s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__struct.hpp
+[11.185s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__builder.hpp
+[11.185s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__traits.hpp
+[11.186s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg
+[11.186s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail
+[11.186s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__builder.hpp
+[11.186s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__struct.hpp
+[11.186s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__struct.hpp
+[11.186s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__traits.hpp
+[11.187s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__builder.hpp
+[11.187s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__traits.hpp
+[11.187s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/num.hpp
+[11.188s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/sphere.hpp
+[11.188s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces
+[11.188s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv
+[11.189s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail
+[11.189s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/dds_fastrtps
+[11.189s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[11.189s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg
+[11.190s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail
+[11.190s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[11.190s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[11.190s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/dds_fastrtps
+[11.191s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.191s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.191s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.191s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces
+[11.191s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv
+[11.191s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail
+[11.191s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_introspection_c.h
+[11.191s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.c
+[11.192s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg
+[11.192s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.192s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail
+[11.192s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[11.192s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.c
+[11.192s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[11.193s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.c
+[11.193s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_c.so
+[11.193s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.193s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_c.so
+[11.193s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_c.so" to ""
+[11.194s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces
+[11.194s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv
+[11.194s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail
+[11.194s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__rosidl_typesupport_introspection_cpp.hpp
+[11.194s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/srv/detail/add_tree_ints__type_support.cpp
+[11.194s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg
+[11.200s] -- Up-to-date: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail
+[11.200s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__type_support.cpp
+[11.200s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[11.200s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/sphere__type_support.cpp
+[11.201s] -- Installing: /workspace/src/install/ros_interfaces/include/ros_interfaces/ros_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[11.201s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.201s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.201s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_cpp.so
+[11.201s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.201s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/pythonpath.sh
+[11.202s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/pythonpath.dsv
+[11.202s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info
+[11.202s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.202s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.202s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.203s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.203s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces
+[11.203s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.203s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv
+[11.203s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/__init__.py
+[11.203s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/_add_tree_ints.py
+[11.203s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/_add_tree_ints_s.c
+[11.204s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg
+[11.204s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_num.py
+[11.204s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_sphere.py
+[11.204s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_sphere_s.c
+[11.204s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_num_s.c
+[11.205s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/__init__.py
+[11.205s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/__init__.py
+[11.205s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.205s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_c.c
+[11.205s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.205s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.211s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/_ros_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.211s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/libros_interfaces__rosidl_generator_py.so
+[11.263s] Listing '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces'...
+[11.264s] Compiling '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/__init__.py'...
+[11.264s] Listing '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg'...
+[11.264s] Compiling '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/__init__.py'...
+[11.264s] Compiling '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_num.py'...
+[11.264s] Compiling '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/msg/_sphere.py'...
+[11.264s] Listing '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv'...
+[11.265s] Compiling '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/__init__.py'...
+[11.265s] Compiling '/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/srv/_add_tree_ints.py'...
+[11.274s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.274s] -- Set runtime path of "/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.275s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.276s] -- Set runtime path of "/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.276s] -- Installing: /workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.277s] -- Set runtime path of "/workspace/src/install/ros_interfaces/local/lib/python3.10/dist-packages/ros_interfaces/ros_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.277s] -- Installing: /workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_py.so
+[11.278s] -- Set runtime path of "/workspace/src/install/ros_interfaces/lib/libros_interfaces__rosidl_generator_py.so" to ""
+[11.278s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/msg/Num.idl
+[11.279s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/msg/Sphere.idl
+[11.279s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts.idl
+[11.279s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/msg/Num.msg
+[11.279s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/msg/Sphere.msg
+[11.280s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts.srv
+[11.280s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts_Request.msg
+[11.280s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/srv/AddTreeInts_Response.msg
+[11.280s] -- Installing: /workspace/src/install/ros_interfaces/share/ament_index/resource_index/package_run_dependencies/ros_interfaces
+[11.281s] -- Installing: /workspace/src/install/ros_interfaces/share/ament_index/resource_index/parent_prefix_path/ros_interfaces
+[11.281s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/ament_prefix_path.sh
+[11.282s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/ament_prefix_path.dsv
+[11.282s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/path.sh
+[11.282s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/environment/path.dsv
+[11.283s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/local_setup.bash
+[11.283s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/local_setup.sh
+[11.283s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/local_setup.zsh
+[11.283s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/local_setup.dsv
+[11.284s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/package.dsv
+[11.284s] -- Installing: /workspace/src/install/ros_interfaces/share/ament_index/resource_index/packages/ros_interfaces
+[11.285s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cExport.cmake
+[11.285s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.285s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.289s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.289s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_cppExport.cmake
+[11.290s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.290s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.290s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.290s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.290s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cExport.cmake
+[11.291s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.293s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.300s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.304s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cppExport.cmake
+[11.304s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.305s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_pyExport.cmake
+[11.306s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/export_ros_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.309s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.310s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.310s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.313s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.330s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.331s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.331s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.331s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfacesConfig.cmake
+[11.331s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/cmake/ros_interfacesConfig-version.cmake
+[11.332s] -- Installing: /workspace/src/install/ros_interfaces/share/ros_interfaces/package.xml
+[11.332s] Invoked command in '/workspace/src/build/ros_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros_interfaces

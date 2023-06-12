@@ -1,1 +1,0 @@
-/workspace/src/ros2_RobotSimulation/Fanuc/CR35iA/cr35ia_ros2_gazebo/launch/cr35ia_simulation.launch.py

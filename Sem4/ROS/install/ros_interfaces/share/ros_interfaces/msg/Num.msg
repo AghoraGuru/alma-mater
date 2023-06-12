@@ -1,1 +1,0 @@
-/workspace/src/ros_interfaces/msg/Num.msg

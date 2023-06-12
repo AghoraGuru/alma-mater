@@ -1,1 +1,0 @@
-/workspace/build/ros2_grasping/rosidl_generator_c/ros2_grasping/action/detail/attacher__type_support.h

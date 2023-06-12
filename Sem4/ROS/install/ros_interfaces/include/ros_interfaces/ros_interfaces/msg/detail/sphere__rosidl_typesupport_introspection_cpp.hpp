@@ -1,1 +1,0 @@
-/workspace/build/ros_interfaces/rosidl_typesupport_introspection_cpp/ros_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp

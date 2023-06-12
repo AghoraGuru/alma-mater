@@ -1,1 +1,0 @@
-/workspace/build/ros2_grasping/rosidl_generator_py/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_c.c

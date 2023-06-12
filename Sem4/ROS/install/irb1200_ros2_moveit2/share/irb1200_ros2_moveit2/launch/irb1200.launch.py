@@ -1,1 +1,0 @@
-/workspace/src/ros2_RobotSimulation/ABBRobots/IRB1200/irb1200_ros2_moveit2/launch/irb1200.launch.py

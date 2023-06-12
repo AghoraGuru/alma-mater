@@ -1,1 +1,0 @@
-/workspace/src/articubot_one/launch/camera.launch.py

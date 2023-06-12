@@ -1,0 +1,86 @@
+[0.558s] Invoking command in '/workspace/src/build/irb120_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ABBRobots/IRB120/irb120_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/src/install/irb120_ros2_gazebo
+[1.103s] -- The C compiler identification is GNU 11.3.0
+[1.103s] -- The CXX compiler identification is GNU 11.3.0
+[1.103s] -- Detecting C compiler ABI info
+[1.104s] -- Detecting C compiler ABI info - done
+[1.104s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.104s] -- Detecting C compile features
+[1.104s] -- Detecting C compile features - done
+[1.104s] -- Detecting CXX compiler ABI info
+[1.130s] -- Detecting CXX compiler ABI info - done
+[1.159s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.160s] -- Detecting CXX compile features
+[1.161s] -- Detecting CXX compile features - done
+[1.180s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.609s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.920s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.117s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.123s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.124s] -- Added test 'lint_cmake' to check CMake code style
+[2.125s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.128s] -- Added test 'xmllint' to check XML markup files
+[2.129s] -- Configuring done
+[2.133s] -- Generating done
+[2.134s] -- Build files have been written to: /workspace/src/build/irb120_ros2_gazebo
+[2.263s] Invoked command in '/workspace/src/build/irb120_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ABBRobots/IRB120/irb120_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/src/install/irb120_ros2_gazebo
+[2.266s] Invoking command in '/workspace/src/build/irb120_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/irb120_ros2_gazebo -- -j12 -l12
+[2.344s] Invoked command in '/workspace/src/build/irb120_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/irb120_ros2_gazebo -- -j12 -l12
+[2.488s] Invoking command in '/workspace/src/build/irb120_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/irb120_ros2_gazebo
+[2.511s] -- Install configuration: ""
+[2.512s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/config
+[2.512s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/config/irb120_controller.yaml
+[2.513s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/config/irb120egp64_controller.yaml
+[2.513s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/launch
+[2.514s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/launch/irb120_simulation.launch.py
+[2.520s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf
+[2.520s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/abb_resources
+[2.520s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/abb_resources/common_materials.xacro
+[2.520s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/abb_resources/common_colours.xacro
+[2.521s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120.urdf.xacro
+[2.521s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_ros2control.xacro
+[2.521s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_transmission.xacro
+[2.521s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/urdf/irb120_macro.urdf.xacro
+[2.521s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/worlds
+[2.521s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/worlds/irb120.world
+[2.521s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes
+[2.522s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/irb120_cell.dae
+[2.522s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision
+[2.522s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_4.stl
+[2.522s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_2.stl
+[2.522s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_1.stl
+[2.522s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/base_link.stl
+[2.526s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_3.stl
+[2.526s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_6.stl
+[2.527s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/collision/link_5.stl
+[2.527s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual
+[2.527s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/base_link.dae
+[2.528s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_2.dae
+[2.528s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_1.dae
+[2.529s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_4.dae
+[2.530s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_6.dae
+[2.536s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_5.dae
+[2.538s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/visual/link_3.dae
+[2.539s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64
+[2.539s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/00. Schunk Gripper - Component POSES
+[2.539s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_RightFingerBase.dae
+[2.539s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_RightFinger.dae
+[2.539s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_Adapter.dae
+[2.539s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_LeftFingerBase.dae
+[2.541s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_BaseNoAdapter.dae
+[2.548s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/meshes/egp64/egp64_LeftFinger.dae
+[2.549s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/irb120_ros2_gazebo
+[2.549s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/irb120_ros2_gazebo
+[2.549s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/ament_prefix_path.sh
+[2.549s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/ament_prefix_path.dsv
+[2.549s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/path.sh
+[2.549s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/environment/path.dsv
+[2.550s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.bash
+[2.550s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.sh
+[2.550s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.zsh
+[2.550s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/local_setup.dsv
+[2.551s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/package.dsv
+[2.551s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/ament_index/resource_index/packages/irb120_ros2_gazebo
+[2.551s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/cmake/irb120_ros2_gazeboConfig.cmake
+[2.551s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/cmake/irb120_ros2_gazeboConfig-version.cmake
+[2.551s] -- Installing: /workspace/src/install/irb120_ros2_gazebo/share/irb120_ros2_gazebo/package.xml
+[2.628s] Invoked command in '/workspace/src/build/irb120_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/irb120_ros2_gazebo

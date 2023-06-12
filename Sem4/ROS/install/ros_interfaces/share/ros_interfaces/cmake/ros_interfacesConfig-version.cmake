@@ -1,1 +1,0 @@
-/workspace/build/ros_interfaces/ament_cmake_core/ros_interfacesConfig-version.cmake

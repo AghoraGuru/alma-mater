@@ -1,0 +1,33 @@
+[0.000000] (-) TimerEvent: {}
+[0.000768] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.000829] (-) JobUnselected: {'identifier': 'cr35ia_ros2_gazebo'}
+[0.000867] (-) JobUnselected: {'identifier': 'cr35ia_ros2_moveit2'}
+[0.000883] (-) JobUnselected: {'identifier': 'iiwa_ros2_gazebo'}
+[0.000931] (-) JobUnselected: {'identifier': 'iiwa_ros2_moveit2'}
+[0.000956] (-) JobUnselected: {'identifier': 'inverse_kinematics'}
+[0.001001] (-) JobUnselected: {'identifier': 'irb1200_ros2_gazebo'}
+[0.001103] (-) JobUnselected: {'identifier': 'irb1200_ros2_moveit2'}
+[0.001181] (-) JobUnselected: {'identifier': 'irb120_ros2_gazebo'}
+[0.001289] (-) JobUnselected: {'identifier': 'irb120_ros2_moveit2'}
+[0.001326] (-) JobUnselected: {'identifier': 'irb6640_ros2_gazebo'}
+[0.001380] (-) JobUnselected: {'identifier': 'irb6640_ros2_moveit2'}
+[0.001419] (-) JobUnselected: {'identifier': 'lakme_ros'}
+[0.001434] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001448] (-) JobUnselected: {'identifier': 'my_robot_package'}
+[0.001468] (-) JobUnselected: {'identifier': 'panda_ros2_gazebo'}
+[0.001504] (-) JobUnselected: {'identifier': 'panda_ros2_moveit2'}
+[0.001525] (-) JobUnselected: {'identifier': 'pubsub'}
+[0.001541] (-) JobUnselected: {'identifier': 'ros2_actions'}
+[0.001557] (-) JobUnselected: {'identifier': 'ros2_data'}
+[0.001572] (-) JobUnselected: {'identifier': 'ros2_execution'}
+[0.001586] (-) JobUnselected: {'identifier': 'ros2_grasping'}
+[0.001615] (-) JobUnselected: {'identifier': 'ros2_mid_actions'}
+[0.001664] (-) JobUnselected: {'identifier': 'ros_interfaces'}
+[0.001685] (-) JobUnselected: {'identifier': 'srvcli'}
+[0.001706] (-) JobUnselected: {'identifier': 'ur10_ros2_gazebo'}
+[0.001726] (-) JobUnselected: {'identifier': 'ur10_ros2_moveit2'}
+[0.001745] (-) JobUnselected: {'identifier': 'ur3_ros2_gazebo'}
+[0.001765] (-) JobUnselected: {'identifier': 'ur3_ros2_moveit2'}
+[0.001784] (-) JobUnselected: {'identifier': 'ur5_ros2_gazebo'}
+[0.001804] (-) JobUnselected: {'identifier': 'ur5_ros2_moveit2'}
+[0.001824] (-) EventReactorShutdown: {}

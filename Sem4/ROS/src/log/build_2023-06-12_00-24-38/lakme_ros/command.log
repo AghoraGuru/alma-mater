@@ -1,0 +1,6 @@
+Invoking command in '/workspace/src/build/lakme_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/lakme_ros -DCMAKE_INSTALL_PREFIX=/workspace/src/install/lakme_ros
+Invoked command in '/workspace/src/build/lakme_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/lakme_ros -DCMAKE_INSTALL_PREFIX=/workspace/src/install/lakme_ros
+Invoking command in '/workspace/src/build/lakme_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/lakme_ros -- -j12 -l12
+Invoked command in '/workspace/src/build/lakme_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/lakme_ros -- -j12 -l12
+Invoking command in '/workspace/src/build/lakme_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/lakme_ros
+Invoked command in '/workspace/src/build/lakme_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/lakme_ros

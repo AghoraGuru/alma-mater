@@ -1,0 +1,24 @@
+<model>
+  <name>my_image_model</name>
+  <static>true</static>
+  <link name="link">
+    <visual name="visual">
+      <geometry>
+        <plane>
+          <normal>0 0 1</normal>
+          <size>1 1</size>
+        </plane>
+      </geometry>
+      <material>
+        <script>
+          <uri>file://media/materials/scripts/gazebo.material</uri>
+          <name>Gazebo/White</name>
+        </script>
+      </material>
+      <texture>
+        <diffuse>file:/workspace/Desktop/apple.jpeg</diffuse>
+        <normal>file:/workspace/Desktop/apple.jpeg</normal>
+      </texture>
+    </visual>
+  </link>
+</model>

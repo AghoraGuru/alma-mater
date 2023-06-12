@@ -1,0 +1,57 @@
+[0.129s] Invoking command in '/workspace/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/articubot_one -DCMAKE_INSTALL_PREFIX=/workspace/src/install/articubot_one
+[1.167s] -- The C compiler identification is GNU 11.3.0
+[1.168s] -- The CXX compiler identification is GNU 11.3.0
+[1.168s] -- Detecting C compiler ABI info
+[1.168s] -- Detecting C compiler ABI info - done
+[1.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.168s] -- Detecting C compile features
+[1.168s] -- Detecting C compile features - done
+[1.168s] -- Detecting CXX compiler ABI info
+[1.169s] -- Detecting CXX compiler ABI info - done
+[1.170s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.170s] -- Detecting CXX compile features
+[1.170s] -- Detecting CXX compile features - done
+[1.170s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.170s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.474s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.856s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.869s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.872s] -- Added test 'lint_cmake' to check CMake code style
+[1.874s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.883s] -- Added test 'xmllint' to check XML markup files
+[1.888s] -- Configuring done
+[1.898s] -- Generating done
+[1.900s] -- Build files have been written to: /workspace/src/build/articubot_one
+[1.947s] Invoked command in '/workspace/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/articubot_one -DCMAKE_INSTALL_PREFIX=/workspace/src/install/articubot_one
+[1.948s] Invoking command in '/workspace/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/articubot_one -- -j12 -l12
+[2.079s] Invoked command in '/workspace/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/articubot_one -- -j12 -l12
+[2.156s] Invoking command in '/workspace/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/articubot_one
+[2.206s] -- Install configuration: ""
+[2.206s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/config
+[2.206s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[2.206s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/config/empty.yaml
+[2.206s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/description
+[2.206s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[2.206s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[2.207s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/description/robot.xacro
+[2.207s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[2.207s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/launch
+[2.207s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[2.207s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/worlds
+[2.208s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/worlds/empty.world
+[2.208s] -- Installing: /workspace/src/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[2.208s] -- Installing: /workspace/src/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[2.208s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[2.209s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[2.209s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/environment/path.sh
+[2.209s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/environment/path.dsv
+[2.209s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/local_setup.bash
+[2.209s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/local_setup.sh
+[2.212s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/local_setup.zsh
+[2.212s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/local_setup.dsv
+[2.212s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/package.dsv
+[2.213s] -- Installing: /workspace/src/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[2.213s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[2.213s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[2.213s] -- Installing: /workspace/src/install/articubot_one/share/articubot_one/package.xml
+[2.213s] Invoked command in '/workspace/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/articubot_one

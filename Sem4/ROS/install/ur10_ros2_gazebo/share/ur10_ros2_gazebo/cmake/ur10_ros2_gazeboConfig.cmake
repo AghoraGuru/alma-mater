@@ -1,1 +1,0 @@
-/workspace/build/ur10_ros2_gazebo/ament_cmake_core/ur10_ros2_gazeboConfig.cmake

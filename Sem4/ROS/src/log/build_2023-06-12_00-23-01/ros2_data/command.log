@@ -1,0 +1,6 @@
+Invoking command in '/workspace/src/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_data -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros2_data
+Invoked command in '/workspace/src/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/ros2_data -DCMAKE_INSTALL_PREFIX=/workspace/src/install/ros2_data
+Invoking command in '/workspace/src/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros2_data -- -j12 -l12
+Invoked command in '/workspace/src/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/ros2_data -- -j12 -l12
+Invoking command in '/workspace/src/build/ros2_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros2_data
+Invoked command in '/workspace/src/build/ros2_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/ros2_data

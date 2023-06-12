@@ -1,1 +1,0 @@
-/workspace/src/ros2_RobotSimulation/UniversalRobots/UR5/ur5_ros2_gazebo/launch/ur5_simulation.launch.py

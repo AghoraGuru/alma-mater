@@ -1,1 +1,0 @@
-/workspace/src/ros2_RobotSimulation/ABBRobots/IRB6640/irb6640_ros2_gazebo/launch/irb6640_simulation.launch.py

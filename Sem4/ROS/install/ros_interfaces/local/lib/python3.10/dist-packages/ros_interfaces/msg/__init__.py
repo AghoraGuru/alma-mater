@@ -1,1 +1,0 @@
-/workspace/build/ros_interfaces/rosidl_generator_py/ros_interfaces/msg/__init__.py

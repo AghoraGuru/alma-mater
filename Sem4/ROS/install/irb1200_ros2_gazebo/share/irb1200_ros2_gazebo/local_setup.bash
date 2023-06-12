@@ -1,1 +1,0 @@
-/workspace/build/irb1200_ros2_gazebo/ament_cmake_environment_hooks/local_setup.bash

@@ -1,1 +1,0 @@
-/workspace/src/ros2_RobotSimulation/ros2_execution/scripts/ros2_execution.py

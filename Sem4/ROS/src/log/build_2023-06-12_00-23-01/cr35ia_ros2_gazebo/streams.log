@@ -1,0 +1,76 @@
+[0.122s] Invoking command in '/workspace/src/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/Fanuc/CR35iA/cr35ia_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/src/install/cr35ia_ros2_gazebo
+[1.138s] -- The C compiler identification is GNU 11.3.0
+[1.138s] -- The CXX compiler identification is GNU 11.3.0
+[1.138s] -- Detecting C compiler ABI info
+[1.139s] -- Detecting C compiler ABI info - done
+[1.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.139s] -- Detecting C compile features
+[1.139s] -- Detecting C compile features - done
+[1.139s] -- Detecting CXX compiler ABI info
+[1.139s] -- Detecting CXX compiler ABI info - done
+[1.140s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.140s] -- Detecting CXX compile features
+[1.140s] -- Detecting CXX compile features - done
+[1.140s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.141s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.274s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.527s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.536s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.538s] -- Added test 'lint_cmake' to check CMake code style
+[1.540s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.544s] -- Added test 'xmllint' to check XML markup files
+[1.548s] -- Configuring done
+[1.555s] -- Generating done
+[1.557s] -- Build files have been written to: /workspace/src/build/cr35ia_ros2_gazebo
+[1.569s] Invoked command in '/workspace/src/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_RobotSimulation/Fanuc/CR35iA/cr35ia_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/workspace/src/install/cr35ia_ros2_gazebo
+[1.570s] Invoking command in '/workspace/src/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/cr35ia_ros2_gazebo -- -j12 -l12
+[1.667s] Invoked command in '/workspace/src/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/cr35ia_ros2_gazebo -- -j12 -l12
+[2.319s] Invoking command in '/workspace/src/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/cr35ia_ros2_gazebo
+[2.347s] -- Install configuration: ""
+[2.349s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/config
+[2.349s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/config/cr35ia_controller.yaml
+[2.349s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/launch
+[2.349s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/launch/cr35ia_simulation.launch.py
+[2.349s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf
+[2.352s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources
+[2.352s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources/common_materials.xacro
+[2.353s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources/common_colours.xacro
+[2.353s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_macro.urdf.xacro
+[2.353s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_transmission.xacro
+[2.353s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia.urdf.xacro
+[2.353s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_ros2control.xacro
+[2.364s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/worlds
+[2.364s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/worlds/cr35ia.world
+[2.364s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes
+[2.365s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision
+[2.365s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_4.stl
+[2.365s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_2.stl
+[2.365s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_1.stl
+[2.366s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/base_link.stl
+[2.366s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_3.stl
+[2.369s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_6.stl
+[2.376s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_5.stl
+[2.379s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual
+[2.380s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_4.stl
+[2.388s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_2.stl
+[2.390s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_1.stl
+[2.395s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/base_link.stl
+[2.396s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_3.stl
+[2.396s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_6.stl
+[2.396s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_5.stl
+[2.396s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/cr35ia_ros2_gazebo
+[2.397s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/cr35ia_ros2_gazebo
+[2.397s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/ament_prefix_path.sh
+[2.397s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/ament_prefix_path.dsv
+[2.397s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/path.sh
+[2.398s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/path.dsv
+[2.398s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.bash
+[2.398s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.sh
+[2.399s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.zsh
+[2.399s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.dsv
+[2.399s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/package.dsv
+[2.400s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/packages/cr35ia_ros2_gazebo
+[2.400s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/cmake/cr35ia_ros2_gazeboConfig.cmake
+[2.400s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/cmake/cr35ia_ros2_gazeboConfig-version.cmake
+[2.401s] -- Installing: /workspace/src/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/package.xml
+[2.414s] Invoked command in '/workspace/src/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/cr35ia_ros2_gazebo

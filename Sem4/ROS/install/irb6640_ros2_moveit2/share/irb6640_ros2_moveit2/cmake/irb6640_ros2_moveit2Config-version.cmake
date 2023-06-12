@@ -1,1 +1,0 @@
-/workspace/build/irb6640_ros2_moveit2/ament_cmake_core/irb6640_ros2_moveit2Config-version.cmake
