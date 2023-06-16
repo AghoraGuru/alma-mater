@@ -1,17 +1,16 @@
 import socket
 
+# a server program to to add , subtract , multiply, divide 2 numbers and send the result to client
 
-def server_program():
-    # get the hostname
-    host = '10.12.42.233'
-    port = 5000  # initiate port no above 1024
 
-    server_socket = socket.socket()  # get instance
-    # look closely. The bind() function takes tuple as argument
+def server():
+    host = socket.gethostname()  # as both code is running on same pc
+    port = 5000  # socket server port number
+
+    server_socket = socket.socket()  # instantiate
     server_socket.bind((host, port))  # bind host address and port together
 
-    # configure how many client the server can listen simultaneously
-    server_socket.listen(10)
+    server_socket.listen(2)
     conn, address = server_socket.accept()  # accept new connection
     print("Connection from: " + str(address))
     while True:
@@ -21,11 +20,22 @@ def server_program():
             # if data is not received break
             break
         print("from connected user: " + str(data))
-        data = input(' -> ')
-        conn.send(data.encode())  # send data to the client
+        data = str(data).split()
+        if data[1] == '+':
+            result = int(data[0]) + int(data[2])
+        elif data[1] == '-':
+            result = int(data[0]) - int(data[2])
+        elif data[1] == '*':
+            result = int(data[0]) * int(data[2])
+        elif data[1] == '/':
+            result = int(data[0]) / int(data[2])
+        else:
+            result = 'Invalid operation'
+        print("sending: " + str(result))
+        conn.send(str(result).encode())  # send data to the client
 
     conn.close()  # close the connection
 
 
 if __name__ == '__main__':
-    server_program()
+    server()

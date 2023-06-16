@@ -1,6 +1,0 @@
-Invoking command in '/workspace/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/articubot_one -DCMAKE_INSTALL_PREFIX=/workspace/src/install/articubot_one
-Invoked command in '/workspace/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/articubot_one -DCMAKE_INSTALL_PREFIX=/workspace/src/install/articubot_one
-Invoking command in '/workspace/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/articubot_one -- -j12 -l12
-Invoked command in '/workspace/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/src/build/articubot_one -- -j12 -l12
-Invoking command in '/workspace/src/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/articubot_one
-Invoked command in '/workspace/src/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/src/build/articubot_one

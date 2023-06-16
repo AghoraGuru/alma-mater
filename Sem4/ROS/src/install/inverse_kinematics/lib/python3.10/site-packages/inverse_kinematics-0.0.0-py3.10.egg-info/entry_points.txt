@@ -1,4 +1,0 @@
-[console_scripts]
-client = inverse_kinematics.two_r_client:main
-server = inverse_kinematics.two_r_server:main
-

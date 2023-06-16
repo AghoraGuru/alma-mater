@@ -1,4 +1,0 @@
-[console_scripts]
-listener = pubsub.sub_mem_fn:main
-talker = pubsub.pub_mem_fn:main
-

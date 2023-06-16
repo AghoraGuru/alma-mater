@@ -1,9 +1,11 @@
 import socket
 
+# a client program to send 2 number to server on port number 5000
 
-def client_program():
-    host = '10.12.52.193'  # as both code is running on same pc
-    port = 5005  # socket server port number
+
+def client():
+    host = socket.gethostname()  # as both code is running on same pc
+    port = 5000  # socket server port number
 
     client_socket = socket.socket()  # instantiate
     client_socket.connect((host, port))  # connect to the server
@@ -22,4 +24,4 @@ def client_program():
 
 
 if __name__ == '__main__':
-    client_program()
+    client()

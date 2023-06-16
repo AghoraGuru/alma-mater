@@ -1,6 +1,0 @@
-setup.py
-ros2_data/__init__.py
-ros2_data.egg-info/PKG-INFO
-ros2_data.egg-info/SOURCES.txt
-ros2_data.egg-info/dependency_links.txt
-ros2_data.egg-info/top_level.txt
