@@ -1,4 +1,5 @@
 // Create two lists of size 10 with random integer values between 1 and 100
+
 val list1 = List.fill(10)(scala.util.Random.nextInt(100) + 1)
 val list2 = List.fill(10)(scala.util.Random.nextInt(100) + 1)
 
