@@ -26,3 +26,4 @@ object Spark {
   val rmse = regressionMetrics.rootMeanSquaredError
   println(s"Root Mean Squared Error (RMSE): $rmse")
 }
+
