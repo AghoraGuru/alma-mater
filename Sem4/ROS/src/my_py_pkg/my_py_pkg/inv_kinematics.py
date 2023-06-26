@@ -14,18 +14,17 @@ def perform_inverse_kinematics(x, y, z):
     D = (r**2 + s**2 - l2**2) / (2 * l2 * math.sqrt(r**2 + s**2))
     joint3 = math.atan2(-math.sqrt(1 - D**2), D) + math.atan2(s, r)
     joint2 = math.atan2(s, r) - math.acos(D)
-
-    joint4 = 0.0  # Adjust according to your requirements
-    joint5 = 0.0  # Adjust according to your requirements
-    joint6 = 0.0  # Adjust according to your requirements
-
+    joint4 = math.atan2(-math.sqrt(1 - D**2), D) - joint3
+    joint5 = math.atan2(-math.sqrt(1 - D**2), D) + joint3
+    joint6 = math.atan2(-math.sqrt(1 - D**2), D) - joint3
+    
     # Return the calculated joint angles
     return joint1, joint2, joint3, joint4, joint5, joint6
 
 # Example usage:
-x = 0.06
-y = 0.0
-z = -0.1
+x = 0.5
+y = -0.3
+z = 0.75
 joint_angles = perform_inverse_kinematics(x, y, z)
 
 # Generate the desired output format
