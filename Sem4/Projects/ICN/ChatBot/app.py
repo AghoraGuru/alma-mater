@@ -22,7 +22,6 @@ def index():
               f.write("\n")
          prompt = request.form['prompt']
          answer = aiapi.get_response(prompt)
-         print(answer)
          res = {}
          res['answer'] = answer
          return jsonify(res), 200
