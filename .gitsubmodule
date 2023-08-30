@@ -1,0 +1,4 @@
+[submodule "ros2_RobotSimulation"]
+	path = ./Sem4/ROS/src/ros2_RobotSimulation
+	url = https://github.com/IFRA-Cranfield/ros2_RobotSimulation.git
+	branch = humble

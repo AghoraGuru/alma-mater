@@ -26,7 +26,8 @@ setup(
             'num_count = my_py_pkg.number_counter:main',
             'num_reset = my_py_pkg.num_counter_reset:main',
             'ros2_move = my_py_pkg.endeffector:main',
-            'lidar = my_py_pkg.lidar_data:main'
+            'lidar = my_py_pkg.lidar_data:main',
+            'findj = my_py_pkg.jointANgles:main'
         ],
     },
 )

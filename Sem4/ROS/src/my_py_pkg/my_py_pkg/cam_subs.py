@@ -82,6 +82,7 @@ class CameraSubscriber(Node):
 
             # Plot the received image
             plt.imshow(cv_image)
+            print(cv_image.shape)
             plt.axis('off')
             plt.show()
             self.image_plotted = True

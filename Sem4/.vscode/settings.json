@@ -6,5 +6,6 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "python.formatting.provider": "none"
+  "python.formatting.provider": "none",
+  "cmake.sourceDirectory": "/home/kalyan/gitrepo/alma-mater/Sem4/ROS/build/ros2_data/ros2_data__py"
 }

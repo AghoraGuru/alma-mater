@@ -27,5 +27,3 @@ RUN apt install gedit -y
 RUN echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
-
-RUN sudo cp /workspace/src/ros2_RobotSimulation/include/move_group_interface_improved.h /opt/ros/humble/include/moveit/move_group_interface/
